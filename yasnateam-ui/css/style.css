@@ -313,7 +313,7 @@ a.logo:visited, a.logo:active{
 	-o-transition: all .3s cubic-bezier(.694,0,.335,1);
 	transition: all .3s cubic-bezier(.694,0,.335,1);
 }
-.logo-container .logo.selected {
+.logo-container .color .logo {
 	-webkit-filter: grayscale(0%);
 	filter: grayscale(0%);
 }
@@ -328,6 +328,9 @@ a.logo:visited, a.logo:active{
 	object-fit: contain;
 }
 .logo-container .owl-nav, .logo-container .owl-dots{
+	display: none;
+}
+product-data{
 	display: none;
 }
 .product{

@@ -8,8 +8,10 @@ jQuery(function ($) {
 		ulCardsWidth = cardWidth * cardsNumber, //calculating ul.cards width
 		header = $('.header-style'),
 		headerHeight = header.outerHeight(),
-        LogoSlides = $('.logo-container .owl-item'),
-        FirstSlide = LogoSlides.find('.logo[data-slide="slide1"]');
+        LogoContainer = $('.logo-container');
+
+    customerDataChanger ()
+
 
 
 	
@@ -123,26 +125,38 @@ jQuery(function ($) {
 	/////Logo Bar Slider Functions
 	/*----------Logo Colorize Function------------*/
         function colorize( selected) {
-        	console.log(selected);
-            LogoSlides.find('.selected').removeClass('selected');
-            selected.addClass('selected');
+            LogoContainer.find('.color').removeClass('color');
+            selected.addClass('color');
         }
 	/*---------End Of Logo Colorize Function------------*/
 
+    LogoContainer.on('translated.owl.carousel', customerDataChanger);
 
-	/*-----------Run Colorize() On Click-----------*/
-    	LogoSlides.find('li.logo').on('click',function (e) {
-			e.preventDefault();
-			colorize( $(this) );
-        });
-	/*----------- End Run Colorize() On Click-----------*/
+    LogoContainer.find('.owl-item').on('click',function (e) {
+		e.preventDefault();
+		 var n = $(this).index();
+		 console.log(n);
+        LogoContainer.trigger('to.owl.carousel', n-5);
+        /* @TODO find out why should I -5 the index to navigate property */
+    });
+
+	function customerDataChanger () {
+        var centralLogo = $('.center'),
+            data = centralLogo.find('.product-data'),
+            imgSrc = data.find('img').attr('src'),
+            header = data.find('h1').text(),
+            paragraph = data.find('p').text(),
+			linkAdd = data.find('a').attr('href'),
+            product = $('.product');
 
 
-	/*---------Colorize First On Load--------*/
-		colorize(FirstSlide);
-	/*---------End Colorize First On Load--------*/
+        colorize( centralLogo );
 
-
+        product.find('.product-pic img').attr('src',imgSrc);
+        product.find('.product-title').text(header);
+        product.find('.description').text(paragraph);
+        product.find('.product-link').attr('href',linkAdd);
+    }
 
 
 }); /*siaf ends*/
