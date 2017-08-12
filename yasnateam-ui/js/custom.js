@@ -2,7 +2,8 @@ jQuery(function ($) {
 	//OnLoad Variable Set
 	var $window = $(window),
 		windowWidth = $(window).width(),
-		profileCard =	$('.cards .card'),
+        profileCards = $('.cards'),
+		profileCard =	$('.cards').find('.card'),
 		cardsNumber = profileCard.length, //calculating ul.cards width
 		cardWidth = profileCard.outerWidth(true), //calculating ul.cards width
 		ulCardsWidth = cardWidth * cardsNumber, //calculating ul.cards width
@@ -10,7 +11,7 @@ jQuery(function ($) {
 		headerHeight = header.outerHeight(),
         LogoContainer = $('.logo-container');
 
-    customerDataChanger ()
+    	customerDataChanger ();
 
 
 
@@ -122,41 +123,97 @@ jQuery(function ($) {
 
 
 
-	/////Logo Bar Slider Functions
-	/*----------Logo Colorize Function------------*/
-        function colorize( selected) {
-            LogoContainer.find('.color').removeClass('color');
-            selected.addClass('color');
-        }
-	/*---------End Of Logo Colorize Function------------*/
+	/*------------Logo Bar Slider Functions ---------------*/
+	LogoContainer.on('translated.owl.carousel', customerDataChanger); //changes data as logo changes
 
-    LogoContainer.on('translated.owl.carousel', customerDataChanger);
-
+	//Jumps To The Selected Slide
     LogoContainer.find('.owl-item').on('click',function (e) {
 		e.preventDefault();
 		 var n = $(this).index();
-		 console.log(n);
         LogoContainer.trigger('to.owl.carousel', n-5);
         /* @TODO find out why should I -5 the index to navigate property */
     });
 
-	function customerDataChanger () {
+    //Stops Logo Slide When Mouse Enters The Detail Section
+	//And Starts Whe Mouse Leaves.
+    $('#product-view').on('mouseenter',function(){
+        LogoContainer.trigger('stop.owl.autoplay');
+    })
+		.on('mouseleave',function() {
+            LogoContainer.trigger('play.owl.autoplay');
+        });
+
+
+    //Gets Data And Updates The Customer Section
+    function customerDataChanger () {
         var centralLogo = $('.center'),
             data = centralLogo.find('.product-data'),
             imgSrc = data.find('img').attr('src'),
             header = data.find('h1').text(),
             paragraph = data.find('p').text(),
-			linkAdd = data.find('a').attr('href'),
+            linkAdd = data.find('a').attr('href'),
             product = $('.product');
 
-
-        colorize( centralLogo );
+        classUpdater(LogoContainer, centralLogo,"color");
 
         product.find('.product-pic img').attr('src',imgSrc);
         product.find('.product-title').text(header);
         product.find('.description').text(paragraph);
         product.find('.product-link').attr('href',linkAdd);
-    }
+    };
+	/*------------ End Logo Bar Slider Functions ---------------*/
+
+
+
+
+
+
+
+	/*------------Profile Cards ------------------*/
+    profileCard.on('click', function () {
+        staffDataChanger( this ); //Updates Profile Data In The Upper Row On Click
+    });
+
+
+    //Gets Data And Updates The About Section
+    function staffDataChanger (This) {
+        var container = $('.story-container'),
+            $this = $(This),
+            imgSrc = $this.find('.profile-data img').attr('src'),
+            name = $this.find('.profile-name').text(),
+            jobtitle = $this.find('.profile-title').text(),
+            story = $this.find('.profile-data p').text();
+
+        classUpdater(profileCards, $this ,"active-card");
+
+        container.find('.about-image-lg img').attr('src', imgSrc);
+        container.find('.job-title').text(jobtitle);
+        container.find('.name').text(name);
+        container.find('.story').text(story);
+
+    };
+	/*------------End Profile Cards ------------------*/
+
+
+
+
+
+
+
+
+
 
 
 }); /*siaf ends*/
+
+
+//Function For Removing Existing Class And Adddin To
+//New Location. "selected" Is The New Class Position.
+//"className" Sould Be Passed As String.
+function classUpdater(parentEl, selected, className) {
+    var classSelector = "."+ className;
+    parentEl.find(classSelector).removeClass(className);
+    selected.addClass(className);
+}
+
+

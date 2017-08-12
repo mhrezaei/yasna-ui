@@ -330,7 +330,7 @@ a.logo:visited, a.logo:active{
 .logo-container .owl-nav, .logo-container .owl-dots{
 	display: none;
 }
-product-data{
+.product-data{
 	display: none;
 }
 .product{
@@ -465,7 +465,7 @@ product-data{
 	transition: all .3s cubic-bezier(.694,0,.335,1);
 }
 
-.active-card{
+.active-card .card-image{
 	-webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
 	filter: grayscale(0%);
 	-webkit-transition: all .3s cubic-bezier(.694,0,.335,1);
@@ -476,7 +476,7 @@ product-data{
 .card-image{
 	height: 150px;
 	overflow: hidden;
-	-webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
 	filter: grayscale(100%);
 	-webkit-transition: all .3s cubic-bezier(.694,0,.335,1);
 	-o-transition: all .3s cubic-bezier(.694,0,.335,1);
@@ -530,6 +530,9 @@ product-data{
 	-webkit-transition: opacity .3s cubic-bezier(.694,0,.335,1);
 	-o-transition: opacity .3s cubic-bezier(.694,0,.335,1);
 	transition: opacity .3s cubic-bezier(.694,0,.335,1);
+}
+.profile-data{
+	display: none;
 }
 
 .contact{
