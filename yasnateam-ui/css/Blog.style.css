@@ -1,0 +1,53 @@
+.has-dark-background body, .has-dark-background h1, .has-dark-background h2,
+.has-dark-background h3, .has-dark-background h4,
+.has-dark-background h5, .has-dark-background h6{
+    color: #fff;
+}
+.is-hidden{
+    display: none;
+}
+.has-dark-bg{
+    background: #000;
+    color: #fff;
+}
+
+.has-dark-bg .logo{
+    color: #fff;
+}
+.has-dark-bg .logo:hover{
+    color: #fff;
+}
+.has-dark-bg .btn-login{
+    background: #000;
+    color: #fff;
+}
+.has-dark-bg.generic-hero{
+    background: #000;
+    color: #fff;
+}
+
+.generic-hero{
+    position: relative;
+    height: 320px;
+    width: 100%;
+}
+.generic-hero img{
+    display: none;
+}
+.generic-hero .container{
+    display: table;
+    height: 100%;
+}
+.hero-inner{
+    display: table-cell;
+    vertical-align: middle;
+}
+.hero-title{
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: .6em;
+    font-weight:500;
+    font-size: 18px;
+    line-height: 1.66666667em;
+    letter-spacing: .19444444em;
+}
