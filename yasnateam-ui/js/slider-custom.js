@@ -72,7 +72,7 @@
 		/*----------Logo Slider-----------*/
 
 		$('.logo-container').owlCarousel({
-			margin:200,
+			// margin:200,
 			center:true,
     		loop:true,
     		autoplay:true,
@@ -92,7 +92,7 @@
 		            margin:100
 		        },
 		        1000:{
-		            items:4,
+		            items:5,
 		            nav:false,
 		            margin:100
 		        },

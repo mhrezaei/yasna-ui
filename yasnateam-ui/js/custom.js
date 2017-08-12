@@ -15,7 +15,11 @@ jQuery(function ($) {
 
 
 
-	
+       if(windowWidth>1000){
+           $('[data-toggle="tooltip"]').tooltip();
+	   }
+
+
 		
 
 
@@ -100,10 +104,10 @@ jQuery(function ($) {
 
 
 /*---------------smooth scrolling to contact section------------*/
-    $('.start-btn').on('click',function(event){
+    $('.start-btn').on('click',function(e){
 
         if(this.hash !=""){
-            event.preventDefault();
+            e.preventDefault();
 
             var hash = this.hash;
 
@@ -130,7 +134,12 @@ jQuery(function ($) {
     LogoContainer.find('.owl-item').on('click',function (e) {
 		e.preventDefault();
 		 var n = $(this).index();
-        LogoContainer.trigger('to.owl.carousel', n-5);
+		if(windowWidth < 1000){
+            LogoContainer.trigger('to.owl.carousel', n-4);
+		}else{
+            LogoContainer.trigger('to.owl.carousel', n-5);
+		}
+
         /* @TODO find out why should I -5 the index to navigate property */
     });
 

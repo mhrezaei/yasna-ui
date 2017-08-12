@@ -93,7 +93,7 @@
 		            margin:100
 		        },
 		        1000:{
-		            items:4,
+		            items:5,
 		            nav:false,
 		            margin:100
 		        },
