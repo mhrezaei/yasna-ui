@@ -7,7 +7,7 @@ jQuery(function ($) {
 		cardsNumber = profileCard.length, //calculating ul.cards width
 		cardWidth = profileCard.outerWidth(true), //calculating ul.cards width
 		ulCardsWidth = cardWidth * cardsNumber, //calculating ul.cards width
-		header = $('.header-style'),
+		header = $('#fixed-header'),
 		headerHeight = header.outerHeight(),
         LogoContainer = $('.logo-container');
 
@@ -207,18 +207,12 @@ jQuery(function ($) {
 
 
 
-
-
-
-
-
-
 }); /*siaf ends*/
 
 
 //Function For Removing Existing Class And Adddin To
 //New Location. "selected" Is The New Class Position.
-//"className" Sould Be Passed As String.
+//"className" Should Be Passed As String.
 function classUpdater(parentEl, selected, className) {
     var classSelector = "."+ className;
     parentEl.find(classSelector).removeClass(className);

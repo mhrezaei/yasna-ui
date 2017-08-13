@@ -7,10 +7,16 @@
     display: none;
 }
 .has-dark-bg{
-    background: #000;
     color: #fff;
 }
-
+.header-style{
+    position: absolute;
+    top:0;
+    left:0;
+    right:0;
+    z-index: 700;
+    background: transparent;
+}
 .has-dark-bg .logo{
     color: #fff;
 }
@@ -18,7 +24,7 @@
     color: #fff;
 }
 .has-dark-bg .btn-login{
-    background: #000;
+    background: transparent;
     color: #fff;
 }
 .has-dark-bg.generic-hero{
@@ -29,18 +35,22 @@
 .generic-hero{
     position: relative;
     height: 320px;
-    width: 100%;
+
 }
 .generic-hero img{
     display: none;
 }
-.generic-hero .container{
+.generic-hero .container-fluid{
     display: table;
     height: 100%;
+    width: 100%;
 }
 .hero-inner{
     display: table-cell;
     vertical-align: middle;
+}
+.hero-header{
+
 }
 .hero-title{
     text-transform: uppercase;
