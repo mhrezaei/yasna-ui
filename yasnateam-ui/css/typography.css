@@ -1,6 +1,8 @@
+
 *{
     font-family: 'Open Sans', vazir, sans-serif;
     direction: rtl;
+    letter-spacing: unset !important;
 }
 a.logo{
     float: right;
@@ -98,12 +100,22 @@ a.logo{
 .lang-btn i{
     margin-right: 2px;
 }
-.credit{
-    float: left;
+.social{
+    text-align: left;
 }
 .btn-wrapper{
     direction: ltr;
 }
+/* list view Styles*/
+.post-info,.post-author{
+    float: right !important;
+}
+
+/*blog post styles */
+.share-post{
+    text-align: left;
+}
+
 
 @media(max-width: 1199px){
     .text{
@@ -131,6 +143,7 @@ a.logo{
 @media(max-width: 991px){
     .social, .credit{
         float: none;
+        text-align: center;
     }
 }
 @media(max-width: 780px){
