@@ -162,11 +162,21 @@ main h2{
     }
   }
 
-
 }
 
-
-
+.share-post{
+  margin: 20px 0;
+  text-align: right;
+  .a2a_kit{
+    display: inline-block;
+  }
+}
+.a2a_menu, .a2a_menu_find_container {
+  border-radius: 0 !important;
+}
+.a2a_label{
+  display: none;
+}
 
 
 
@@ -183,6 +193,7 @@ main h2{
     line-height: 1.66666667em;
     letter-spacing: .19444444em;
   }
+
 }
 @media (min-width: 1281px){
   .hero-title{

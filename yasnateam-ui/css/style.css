@@ -819,6 +819,9 @@ aside .close-btn:hover{
 		padding-left: 0;
 		padding-right: 0;
 	}
+	.contact{
+		padding-top:50px;
+	}
 	.hover-slide{
 		display: none;
 	}
