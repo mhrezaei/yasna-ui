@@ -165,7 +165,7 @@ jQuery(function ($) {
 
         classUpdater(LogoContainer, centralLogo,"color");
 
-        product.find('.product-pic img').attr('src',imgSrc);
+        product.find('.product-pic images').attr('src',imgSrc);
         product.find('.product-title').text(header);
         product.find('.description').text(paragraph);
         product.find('.product-link').attr('href',linkAdd);
@@ -188,14 +188,14 @@ jQuery(function ($) {
     function staffDataChanger (This) {
         var container = $('.story-container'),
             $this = $(This),
-            imgSrc = $this.find('.profile-data img').attr('src'),
+            imgSrc = $this.find('.profile-data images').attr('src'),
             name = $this.find('.profile-name').text(),
             jobtitle = $this.find('.profile-title').text(),
             story = $this.find('.profile-data p').text();
 
         classUpdater(profileCards, $this ,"active-card");
 
-        container.find('.about-image-lg img').attr('src', imgSrc);
+        container.find('.about-image-lg images').attr('src', imgSrc);
         container.find('.job-title').text(jobtitle);
         container.find('.name').text(name);
         container.find('.story').text(story);

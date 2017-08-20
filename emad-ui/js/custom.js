@@ -21,4 +21,14 @@ jQuery(function($){
         },800);
     }
 
+    $('.img-row').owlCarousel({
+        item:25,
+        margin:0,
+        loop:true,
+        autoplay:true,
+        autoplayTimeout:1000,
+        autoplayHoverPause:true,
+        nav:false,
+        autoWidth:true
+    });
 }); //End Of siaf!
