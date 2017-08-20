@@ -1,4 +1,34 @@
 jQuery(function($){
+    var parent =$('.scroll'),
+        parentWidth = parent.width(),
+        years = $('.years'),
+        yearsWidth = years.prop("clientWidth"),
+        minusePadding = yearsWidth - parentWidth,
+        year = years.find('.year'),
+        yearWidth = year.width(),
+        yearHeight = year.height();
+
+    /*years.css({
+        right: minusePadding
+    });
+    parent.height( yearHeight*3 );
+
+    years.on('scroll',function (e) {
+
+    });*/
+
+    var yearCount = year.length;
+
+    function blink() {
+        num = Math.floor(Math.random() * 9);
+        $('.blink').removeClass('blink');
+        year.eq(num).addClass('blink');
+
+    }
+    setInterval(blink,2000);
+    console.log(yearCount)
+
+
 
     $('.nav-toggle').on('click',function(){
        $('.nav-list').slideToggle();
@@ -31,4 +61,8 @@ jQuery(function($){
         nav:false,
         autoWidth:true
     });
+
+
+
+
 }); //End Of siaf!

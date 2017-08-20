@@ -63,6 +63,7 @@ $dark-gray: #191919;
 
 //sizes
 $header-height: 40px;
+$header-height-big: 70px;
 
 //other
 $gray-narrow-border: 1px solid $light-gray;
@@ -181,6 +182,14 @@ a.nav-links{
     }
   }
 }
+.main-title{
+  color:#6f6f6f;
+  font-weight: 300;
+  margin:20px 0;
+  font-size: 3em;
+  text-transform: capitalize;
+}
+
 @media(min-width: 768px){
   .mobile,.nav-list{
     display: none;
@@ -189,7 +198,7 @@ a.nav-links{
     display: inline-block;
   }
   .header{
-    height: 70px;
+    height: $header-height-big;
     padding: 18px 0 19px;
     .inner-header{
       padding:0 40px;
@@ -201,6 +210,7 @@ a.nav-links{
     }
   }
 }
+
 
 
 

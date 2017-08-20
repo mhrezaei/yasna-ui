@@ -101,7 +101,7 @@ $img-size: $footer-height - 20px;
   .post{
     position: absolute;
     top:40px;
-    bottom: 80px;
+    bottom: $footer-height;
     right:0;
     left:0;
     overflow-y: scroll;
@@ -143,6 +143,6 @@ $img-size: $footer-height - 20px;
 
 @media(min-width: 768px) {
   .blog-post .post{
-    top: 70px;
+    top: $header-height-big;
   }
 }
