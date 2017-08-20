@@ -7,212 +7,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="61104f86-bd8b-47ba-8670-74274105debd" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emad-ui/owlcarousel/dist/assets/ajax-loader.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emad-ui/owlcarousel/dist/assets/owl.video.play.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emad-ui/owlcarousel/docs/assets/img/bird_blue_32.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emad-ui/owlcarousel/docs/assets/img/download.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emad-ui/owlcarousel/docs/assets/img/feature-drag.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emad-ui/owlcarousel/docs/assets/img/feature-modern.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emad-ui/owlcarousel/docs/assets/img/feature-module.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emad-ui/owlcarousel/docs/assets/img/feature-options.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emad-ui/owlcarousel/docs/assets/img/feature-responsive.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emad-ui/owlcarousel/docs/assets/img/feature-zombie.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emad-ui/owlcarousel/docs/assets/img/owl-logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emad-ui/owlcarousel/docs/assets/img/twitter_25.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emad-ui/owlcarousel/docs/assets/owlcarousel/assets/ajax-loader.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emad-ui/owlcarousel/docs/assets/owlcarousel/assets/owl.video.play.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emad-ui/owlcarousel/docs_src/assets/img/bird_blue_32.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emad-ui/owlcarousel/docs_src/assets/img/download.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emad-ui/owlcarousel/docs_src/assets/img/feature-drag.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emad-ui/owlcarousel/docs_src/assets/img/feature-modern.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emad-ui/owlcarousel/docs_src/assets/img/feature-module.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emad-ui/owlcarousel/docs_src/assets/img/feature-options.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emad-ui/owlcarousel/docs_src/assets/img/feature-responsive.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emad-ui/owlcarousel/docs_src/assets/img/feature-zombie.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emad-ui/owlcarousel/docs_src/assets/img/owl-logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emad-ui/owlcarousel/docs_src/assets/img/twitter_25.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emad-ui/owlcarousel/docs_src/templates/partials/releated-docs.hbs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emad-ui/owlcarousel/src/img/ajax-loader.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emad-ui/owlcarousel/src/img/owl.video.play.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emad-ui/blog.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emad-ui/owlcarousel/.gitattributes" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emad-ui/owlcarousel/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emad-ui/owlcarousel/.travis.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emad-ui/owlcarousel/CONTRIBUTING.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emad-ui/owlcarousel/Gruntfile.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emad-ui/owlcarousel/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emad-ui/owlcarousel/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emad-ui/owlcarousel/ROADMAP.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emad-ui/owlcarousel/_config.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emad-ui/owlcarousel/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emad-ui/owlcarousel/dist/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emad-ui/owlcarousel/dist/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emad-ui/owlcarousel/dist/assets/owl.carousel.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emad-ui/owlcarousel/dist/assets/owl.carousel.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emad-ui/owlcarousel/dist/assets/owl.theme.default.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emad-ui/owlcarousel/dist/assets/owl.theme.default.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emad-ui/owlcarousel/dist/assets/owl.theme.green.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emad-ui/owlcarousel/dist/assets/owl.theme.green.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emad-ui/owlcarousel/dist/owl.carousel.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emad-ui/owlcarousel/dist/owl.carousel.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emad-ui/owlcarousel/docs/assets/css/animate.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emad-ui/owlcarousel/docs/assets/css/docs.theme.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emad-ui/owlcarousel/docs/assets/js/app.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emad-ui/owlcarousel/docs/assets/js/foundation.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emad-ui/owlcarousel/docs/assets/owlcarousel/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emad-ui/owlcarousel/docs/assets/owlcarousel/assets/owl.carousel.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emad-ui/owlcarousel/docs/assets/owlcarousel/assets/owl.carousel.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emad-ui/owlcarousel/docs/assets/owlcarousel/assets/owl.theme.default.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emad-ui/owlcarousel/docs/assets/owlcarousel/assets/owl.theme.default.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emad-ui/owlcarousel/docs/assets/owlcarousel/assets/owl.theme.green.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emad-ui/owlcarousel/docs/assets/owlcarousel/assets/owl.theme.green.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emad-ui/owlcarousel/docs/assets/owlcarousel/owl.carousel.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emad-ui/owlcarousel/docs/assets/owlcarousel/owl.carousel.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emad-ui/owlcarousel/docs/assets/vendors/foundation.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emad-ui/owlcarousel/docs/assets/vendors/highlight.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emad-ui/owlcarousel/docs/assets/vendors/jquery.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emad-ui/owlcarousel/docs/assets/vendors/jquery.min.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emad-ui/owlcarousel/docs/assets/vendors/jquery.mousewheel.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emad-ui/owlcarousel/docs/demos/animate.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emad-ui/owlcarousel/docs/demos/autoheight.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emad-ui/owlcarousel/docs/demos/autoplay.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emad-ui/owlcarousel/docs/demos/autowidth.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emad-ui/owlcarousel/docs/demos/basic.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emad-ui/owlcarousel/docs/demos/center.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emad-ui/owlcarousel/docs/demos/demos.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emad-ui/owlcarousel/docs/demos/events.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emad-ui/owlcarousel/docs/demos/lazyLoad.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emad-ui/owlcarousel/docs/demos/merge.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emad-ui/owlcarousel/docs/demos/mousewheel.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emad-ui/owlcarousel/docs/demos/responsive.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emad-ui/owlcarousel/docs/demos/rtl.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emad-ui/owlcarousel/docs/demos/stagepadding.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emad-ui/owlcarousel/docs/demos/test.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emad-ui/owlcarousel/docs/demos/urlhashnav.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emad-ui/owlcarousel/docs/demos/video.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emad-ui/owlcarousel/docs/docs/api-classes.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emad-ui/owlcarousel/docs/docs/api-events.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emad-ui/owlcarousel/docs/docs/api-options.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emad-ui/owlcarousel/docs/docs/dev-buildin-plugins.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emad-ui/owlcarousel/docs/docs/dev-external.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emad-ui/owlcarousel/docs/docs/dev-plugin-api.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emad-ui/owlcarousel/docs/docs/dev-styles.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emad-ui/owlcarousel/docs/docs/started-faq.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emad-ui/owlcarousel/docs/docs/started-installation.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emad-ui/owlcarousel/docs/docs/started-welcome.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emad-ui/owlcarousel/docs/docs/support-changelog.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emad-ui/owlcarousel/docs/docs/support-contact.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emad-ui/owlcarousel/docs/docs/support-contributing.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emad-ui/owlcarousel/docs/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emad-ui/owlcarousel/docs_src/assets/css/animate.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emad-ui/owlcarousel/docs_src/assets/js/app.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emad-ui/owlcarousel/docs_src/assets/js/foundation.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emad-ui/owlcarousel/docs_src/assets/scss/_settings.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emad-ui/owlcarousel/docs_src/assets/scss/custom.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emad-ui/owlcarousel/docs_src/assets/scss/demos.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emad-ui/owlcarousel/docs_src/assets/scss/docs.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emad-ui/owlcarousel/docs_src/assets/scss/docs.theme.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emad-ui/owlcarousel/docs_src/assets/scss/highlight.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emad-ui/owlcarousel/docs_src/assets/vendors/foundation.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emad-ui/owlcarousel/docs_src/assets/vendors/highlight.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emad-ui/owlcarousel/docs_src/assets/vendors/jquery.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emad-ui/owlcarousel/docs_src/assets/vendors/jquery.min.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emad-ui/owlcarousel/docs_src/assets/vendors/jquery.mousewheel.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emad-ui/owlcarousel/docs_src/data/classes.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emad-ui/owlcarousel/docs_src/data/events.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emad-ui/owlcarousel/docs_src/data/features.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emad-ui/owlcarousel/docs_src/data/options.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emad-ui/owlcarousel/docs_src/helpers/modulo.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emad-ui/owlcarousel/docs_src/helpers/test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emad-ui/owlcarousel/docs_src/templates/layouts/demos.hbs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emad-ui/owlcarousel/docs_src/templates/layouts/docs.hbs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emad-ui/owlcarousel/docs_src/templates/layouts/home.hbs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emad-ui/owlcarousel/docs_src/templates/pages/demos/animate.hbs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emad-ui/owlcarousel/docs_src/templates/pages/demos/autoheight.hbs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emad-ui/owlcarousel/docs_src/templates/pages/demos/autoplay.hbs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emad-ui/owlcarousel/docs_src/templates/pages/demos/autowidth.hbs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emad-ui/owlcarousel/docs_src/templates/pages/demos/basic.hbs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emad-ui/owlcarousel/docs_src/templates/pages/demos/center.hbs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emad-ui/owlcarousel/docs_src/templates/pages/demos/demos.hbs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emad-ui/owlcarousel/docs_src/templates/pages/demos/events.hbs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emad-ui/owlcarousel/docs_src/templates/pages/demos/lazyLoad.hbs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emad-ui/owlcarousel/docs_src/templates/pages/demos/merge.hbs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emad-ui/owlcarousel/docs_src/templates/pages/demos/mousewheel.hbs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emad-ui/owlcarousel/docs_src/templates/pages/demos/responsive.hbs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emad-ui/owlcarousel/docs_src/templates/pages/demos/rtl.hbs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emad-ui/owlcarousel/docs_src/templates/pages/demos/stagepadding.hbs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emad-ui/owlcarousel/docs_src/templates/pages/demos/test.hbs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emad-ui/owlcarousel/docs_src/templates/pages/demos/urlhashnav.hbs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emad-ui/owlcarousel/docs_src/templates/pages/demos/video.hbs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emad-ui/owlcarousel/docs_src/templates/pages/docs/api-classes.hbs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emad-ui/owlcarousel/docs_src/templates/pages/docs/api-events.hbs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emad-ui/owlcarousel/docs_src/templates/pages/docs/api-options.hbs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emad-ui/owlcarousel/docs_src/templates/pages/docs/dev-buildin-plugins.hbs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emad-ui/owlcarousel/docs_src/templates/pages/docs/dev-external.hbs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emad-ui/owlcarousel/docs_src/templates/pages/docs/dev-plugin-api.hbs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emad-ui/owlcarousel/docs_src/templates/pages/docs/dev-styles.hbs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emad-ui/owlcarousel/docs_src/templates/pages/docs/started-faq.hbs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emad-ui/owlcarousel/docs_src/templates/pages/docs/started-installation.hbs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emad-ui/owlcarousel/docs_src/templates/pages/docs/started-welcome.hbs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emad-ui/owlcarousel/docs_src/templates/pages/docs/support-changelog.hbs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emad-ui/owlcarousel/docs_src/templates/pages/docs/support-contact.hbs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emad-ui/owlcarousel/docs_src/templates/pages/docs/support-contributing.hbs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emad-ui/owlcarousel/docs_src/templates/pages/index.hbs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emad-ui/owlcarousel/docs_src/templates/partials/footer.hbs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emad-ui/owlcarousel/docs_src/templates/partials/head.hbs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emad-ui/owlcarousel/docs_src/templates/partials/header.hbs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emad-ui/owlcarousel/docs_src/templates/partials/home-carousel.hbs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emad-ui/owlcarousel/docs_src/templates/partials/home-features.hbs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emad-ui/owlcarousel/docs_src/templates/partials/home-hero.hbs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emad-ui/owlcarousel/docs_src/templates/partials/home-teaser-text.hbs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emad-ui/owlcarousel/docs_src/templates/partials/javascripts.hbs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emad-ui/owlcarousel/docs_src/templates/partials/sidenav-docs.hbs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emad-ui/owlcarousel/docs_src/templates/partials/title.hbs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emad-ui/owlcarousel/docs_src/templates/partials/vendors.hbs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emad-ui/owlcarousel/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emad-ui/owlcarousel/src/js/.jscsrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emad-ui/owlcarousel/src/js/.jshintrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emad-ui/owlcarousel/src/js/owl.animate.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emad-ui/owlcarousel/src/js/owl.autoheight.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emad-ui/owlcarousel/src/js/owl.autoplay.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emad-ui/owlcarousel/src/js/owl.autorefresh.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emad-ui/owlcarousel/src/js/owl.carousel.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emad-ui/owlcarousel/src/js/owl.hash.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emad-ui/owlcarousel/src/js/owl.lazyload.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emad-ui/owlcarousel/src/js/owl.navigation.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emad-ui/owlcarousel/src/js/owl.support.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emad-ui/owlcarousel/src/js/owl.support.modernizr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emad-ui/owlcarousel/src/js/owl.video.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emad-ui/owlcarousel/src/scss/_animate.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emad-ui/owlcarousel/src/scss/_autoheight.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emad-ui/owlcarousel/src/scss/_core.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emad-ui/owlcarousel/src/scss/_lazyload.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emad-ui/owlcarousel/src/scss/_theme.default.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emad-ui/owlcarousel/src/scss/_theme.green.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emad-ui/owlcarousel/src/scss/_theme.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emad-ui/owlcarousel/src/scss/_video.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emad-ui/owlcarousel/src/scss/owl.carousel.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emad-ui/owlcarousel/src/scss/owl.theme.default.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emad-ui/owlcarousel/src/scss/owl.theme.green.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emad-ui/owlcarousel/test/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emad-ui/owlcarousel/test/unit/core.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emad-ui/sass/blog-style.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emad-ui/sass/index-style.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/emad-ui/sass/style.scss" afterPath="$PROJECT_DIR$/emad-ui/sass/_style.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/emad-ui/blog.html" afterPath="$PROJECT_DIR$/emad-ui/blog.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/emad-ui/css/blog-style.min.css" afterPath="$PROJECT_DIR$/emad-ui/css/blog-style.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/emad-ui/css/blog-style.min.css.map" afterPath="$PROJECT_DIR$/emad-ui/css/blog-style.min.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/emad-ui/css/index-style.min.css" afterPath="$PROJECT_DIR$/emad-ui/css/index-style.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/emad-ui/css/index-style.min.css.map" afterPath="$PROJECT_DIR$/emad-ui/css/index-style.min.css.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/emad-ui/index.html" afterPath="$PROJECT_DIR$/emad-ui/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/emad-ui/js/custom.js" afterPath="$PROJECT_DIR$/emad-ui/js/custom.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yasnateam-ui/js/custom.js" afterPath="$PROJECT_DIR$/yasnateam-ui/js/custom.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yasnateam-ui/owlcarousel/Gruntfile.js" afterPath="$PROJECT_DIR$/yasnateam-ui/owlcarousel/Gruntfile.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yasnateam-ui/owlcarousel/dist/owl.carousel.js" afterPath="$PROJECT_DIR$/yasnateam-ui/owlcarousel/dist/owl.carousel.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yasnateam-ui/owlcarousel/dist/owl.carousel.min.js" afterPath="$PROJECT_DIR$/yasnateam-ui/owlcarousel/dist/owl.carousel.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yasnateam-ui/owlcarousel/docs/assets/js/foundation.min.js" afterPath="$PROJECT_DIR$/yasnateam-ui/owlcarousel/docs/assets/js/foundation.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yasnateam-ui/owlcarousel/docs/assets/owlcarousel/owl.carousel.js" afterPath="$PROJECT_DIR$/yasnateam-ui/owlcarousel/docs/assets/owlcarousel/owl.carousel.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yasnateam-ui/owlcarousel/docs/assets/owlcarousel/owl.carousel.min.js" afterPath="$PROJECT_DIR$/yasnateam-ui/owlcarousel/docs/assets/owlcarousel/owl.carousel.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yasnateam-ui/owlcarousel/docs/assets/vendors/foundation.min.js" afterPath="$PROJECT_DIR$/yasnateam-ui/owlcarousel/docs/assets/vendors/foundation.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yasnateam-ui/owlcarousel/docs_src/assets/js/foundation.min.js" afterPath="$PROJECT_DIR$/yasnateam-ui/owlcarousel/docs_src/assets/js/foundation.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yasnateam-ui/owlcarousel/docs_src/assets/vendors/foundation.min.js" afterPath="$PROJECT_DIR$/yasnateam-ui/owlcarousel/docs_src/assets/vendors/foundation.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yasnateam-ui/owlcarousel/src/js/owl.video.js" afterPath="$PROJECT_DIR$/yasnateam-ui/owlcarousel/src/js/owl.video.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/emad-ui/sass/_style.scss" afterPath="$PROJECT_DIR$/emad-ui/sass/_style.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/emad-ui/sass/blog-style.scss" afterPath="$PROJECT_DIR$/emad-ui/sass/blog-style.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/emad-ui/sass/index-style.scss" afterPath="$PROJECT_DIR$/emad-ui/sass/index-style.scss" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -236,19 +41,71 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="blog.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="blog.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/emad-ui/blog.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
-              <caret line="134" column="30" lean-forward="false" selection-start-line="134" selection-start-column="30" selection-end-line="134" selection-end-column="30" />
+            <state relative-caret-position="351">
+              <caret line="77" column="45" lean-forward="false" selection-start-line="77" selection-start-column="45" selection-end-line="77" selection-end-column="45" />
               <folding>
                 <element signature="n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#p#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#p#1;n#div#0;n#div#1;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#p#2;n#div#0;n#div#1;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#p#3;n#div#0;n#div#1;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/emad-ui/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="222">
+              <caret line="60" column="39" lean-forward="true" selection-start-line="60" selection-start-column="37" selection-end-line="60" selection-end-column="43" />
+              <folding>
+                <element signature="e#538#1830#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_style.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/emad-ui/sass/_style.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="248">
+              <caret line="165" column="18" lean-forward="false" selection-start-line="165" selection-start-column="18" selection-end-line="165" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="blog-style.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/emad-ui/sass/blog-style.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="468">
+              <caret line="126" column="43" lean-forward="false" selection-start-line="126" selection-start-column="43" selection-end-line="126" selection-end-column="43" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index-style.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/emad-ui/sass/index-style.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="768">
+              <caret line="89" column="0" lean-forward="true" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="custom.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/emad-ui/js/custom.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="612">
+              <caret line="28" column="25" lean-forward="false" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -280,6 +137,8 @@
       <find>aside</find>
       <find>tran</find>
       <find>ke</find>
+      <find>text-align-center</find>
+      <find>b1b1b1</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -314,12 +173,12 @@
         <option value="$PROJECT_DIR$/yasnateam-ui/list.html" />
         <option value="$PROJECT_DIR$/yasnateam-ui/sass/list.scss" />
         <option value="$PROJECT_DIR$/emad-ui/sass/style.scss" />
-        <option value="$PROJECT_DIR$/emad-ui/index.html" />
-        <option value="$PROJECT_DIR$/emad-ui/sass/_style.scss" />
-        <option value="$PROJECT_DIR$/emad-ui/sass/index-style.scss" />
         <option value="$PROJECT_DIR$/emad-ui/js/custom.js" />
+        <option value="$PROJECT_DIR$/emad-ui/sass/_style.scss" />
         <option value="$PROJECT_DIR$/emad-ui/sass/blog-style.scss" />
         <option value="$PROJECT_DIR$/emad-ui/blog.html" />
+        <option value="$PROJECT_DIR$/emad-ui/index.html" />
+        <option value="$PROJECT_DIR$/emad-ui/sass/index-style.scss" />
       </list>
     </option>
   </component>
@@ -375,25 +234,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="yasnateam-ui" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="yasna-ui" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="yasna-ui" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="yasnateam-ui" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
+              <option name="myItemId" value="emad-ui" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -408,6 +249,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="emad-ui" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sass" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -574,11 +419,12 @@
       <workItem from="1502773368809" duration="23775000" />
       <workItem from="1502883895239" duration="11612000" />
       <workItem from="1503119780822" duration="27060000" />
+      <workItem from="1503205432900" duration="7279000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="139248000" />
+    <option name="totallyTimeSpent" value="146527000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -591,8 +437,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14818764" sideWeight="0.4963119" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14978679" sideWeight="0.4963119" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32982087" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32982087" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -670,10 +517,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
           <caret line="10" column="56" lean-forward="false" selection-start-line="10" selection-start-column="56" selection-end-line="10" selection-end-column="56" />
-          <folding>
-            <element signature="n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#nav#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -681,7 +524,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="468">
           <caret line="18" column="4" lean-forward="false" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="53" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -713,10 +555,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#nav#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -732,7 +570,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="910">
           <caret line="35" column="22" lean-forward="false" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -756,10 +593,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#nav#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -775,7 +608,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="910">
           <caret line="35" column="22" lean-forward="false" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -783,10 +615,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#nav#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -801,10 +629,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1222">
           <caret line="47" column="36" lean-forward="true" selection-start-line="47" selection-start-column="36" selection-end-line="47" selection-end-column="36" />
-          <folding>
-            <element signature="n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#nav#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -842,7 +666,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3900">
           <caret line="150" column="0" lean-forward="false" selection-start-line="150" selection-start-column="0" selection-end-line="150" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -873,7 +696,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3900">
           <caret line="150" column="0" lean-forward="true" selection-start-line="150" selection-start-column="0" selection-end-line="150" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -925,18 +747,17 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="26">
           <caret line="35" column="22" lean-forward="false" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/yasnateam-ui/css/blog.min.css.map">
-      <provider editor-type-id="sourcemapFileViewerProvider">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
+      </provider>
+      <provider editor-type-id="sourcemapFileViewerProvider">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/yasnateam-ui/css/blog.min.css">
@@ -980,10 +801,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
           <caret line="10" column="56" lean-forward="false" selection-start-line="10" selection-start-column="56" selection-end-line="10" selection-end-column="56" />
-          <folding>
-            <element signature="n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#nav#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -991,7 +808,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
           <caret line="18" column="4" lean-forward="false" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="53" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1007,17 +823,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="26">
           <caret line="10" column="56" lean-forward="false" selection-start-line="10" selection-start-column="56" selection-end-line="10" selection-end-column="56" />
-          <folding>
-            <element signature="n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#nav#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="e#12855#12862#1" expanded="false" />
-            <element signature="e#13333#13340#1" expanded="false" />
-            <element signature="n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#aside#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1025,7 +830,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="662">
           <caret line="720" column="32" lean-forward="false" selection-start-line="720" selection-start-column="32" selection-end-line="720" selection-end-column="59" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1033,33 +837,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="52">
           <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/emad-ui/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="10" column="104" lean-forward="false" selection-start-line="10" selection-start-column="104" selection-end-line="10" selection-end-column="104" />
-          <folding>
-            <element signature="e#538#1830#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/emad-ui/sass/index-style.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="62" column="0" lean-forward="false" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/emad-ui/sass/_style.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-988">
-          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1081,7 +858,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/yasnateam-ui/js/slider-custom.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
+        <state relative-caret-position="92">
           <caret line="80" column="23" lean-forward="false" selection-start-line="79" selection-start-column="12" selection-end-line="80" selection-end-column="36" />
           <folding />
         </state>
@@ -1089,32 +866,58 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/emad-ui/js/custom.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="624">
-          <caret line="24" column="16" lean-forward="false" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
+        <state relative-caret-position="612">
+          <caret line="28" column="25" lean-forward="false" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/emad-ui/sass/blog-style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="27" column="20" lean-forward="true" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
+        <state relative-caret-position="468">
+          <caret line="126" column="43" lean-forward="false" selection-start-line="126" selection-start-column="43" selection-end-line="126" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/emad-ui/sass/_style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="165" column="18" lean-forward="false" selection-start-line="165" selection-start-column="18" selection-end-line="165" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/emad-ui/blog.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="134" column="30" lean-forward="false" selection-start-line="134" selection-start-column="30" selection-end-line="134" selection-end-column="30" />
+        <state relative-caret-position="351">
+          <caret line="77" column="45" lean-forward="false" selection-start-line="77" selection-start-column="45" selection-end-line="77" selection-end-column="45" />
           <folding>
             <element signature="n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#p#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#p#1;n#div#0;n#div#1;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#p#2;n#div#0;n#div#1;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#p#3;n#div#0;n#div#1;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/emad-ui/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="60" column="39" lean-forward="true" selection-start-line="60" selection-start-column="37" selection-end-line="60" selection-end-column="43" />
+          <folding>
+            <element signature="e#538#1830#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/emad-ui/sass/index-style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="768">
+          <caret line="89" column="0" lean-forward="true" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

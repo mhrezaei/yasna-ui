@@ -22,7 +22,7 @@ jQuery(function($){
     }
 
     $('.img-row').owlCarousel({
-        item:25,
+        items:30,
         margin:0,
         loop:true,
         autoplay:true,

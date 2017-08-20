@@ -81,6 +81,10 @@ a, a:hover, a:active, a:focus, a:visited{
   padding:0;
   list-style-type: none;
 }
+.text-align-center{
+  text-align: center;
+}
+
 a.nav-links{
   font-size: 14px;
   line-height: 15px;
@@ -102,8 +106,6 @@ a.nav-links{
   left: 0;
   width: 100%;
   z-index: 200;
-/*  transform: translate3d(0, 0, 0);
-  transition: padding 0.2s, transform 0.3s ease, background 0.2s linear, border-bottom 0.2s linear;*/
   min-width: 320px;
 }
 .inner-header{
@@ -129,9 +131,12 @@ a.nav-links{
       font-size: 14px;
       display: inline-block;
       vertical-align: top;
-      margin: 0 15px;
+      margin-right:30px;
       a{
         @extend .nav-links;
+      }
+      &:last-child{
+        margin-right: 0;
       }
     }
   }
@@ -158,6 +163,7 @@ a.nav-links{
 }
 .nav-list{
   position: absolute;
+  background: #fff;
   top: $header-height;
   left:0;
   right:0;
@@ -186,14 +192,14 @@ a.nav-links{
     height: 70px;
     padding: 18px 0 19px;
     .inner-header{
-      padding:0 50px;
+      padding:0 40px;
       .logo{
+        margin: 10px 0 0;
         font-size: 20px;
         margin-top: 0;
       }
     }
   }
-
 }
 
 
