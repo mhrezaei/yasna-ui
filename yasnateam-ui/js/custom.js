@@ -9,7 +9,8 @@ jQuery(function ($) {
 		ulCardsWidth = cardWidth * cardsNumber, //calculating ul.cards width
 		header = $('#fixed-header'),
 		headerHeight = header.outerHeight(),
-        LogoContainer = $('.logo-container');
+        LogoContainer = $('.logo-container'),
+		LangList = $('.lang-list');
 
     	customerDataChanger ();
 
@@ -66,6 +67,13 @@ jQuery(function ($) {
 				$('aside').fadeOut();
 			});
 		});
+	});
+	$('.lang-list li').on('click',function(){
+		var LangList = $('.lang-list'),
+			$this = $(this);
+
+        classUpdater(LangList, $this, "active-lang");
+		return $this.data('lang');
 	});
 /*--------------End Language Window--------------*/
 
@@ -210,7 +218,7 @@ jQuery(function ($) {
 }); /*siaf ends*/
 
 
-//Function For Removing Existing Class And Adddin To
+//Function For Removing Existing Class And Adding To
 //New Location. "selected" Is The New Class Position.
 //"className" Should Be Passed As String.
 function classUpdater(parentEl, selected, className) {
