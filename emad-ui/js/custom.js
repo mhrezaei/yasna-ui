@@ -1,6 +1,4 @@
 jQuery(function($){
-    console.log(yearCount)
-
 
 
     $('.nav-toggle').on('click',function(){
