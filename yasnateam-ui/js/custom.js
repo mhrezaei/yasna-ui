@@ -2,17 +2,25 @@ jQuery(function ($) {
 	//OnLoad Variable Set
 	var $window = $(window),
 		windowWidth = $(window).width(),
-		profileCard =	$('.cards .card'),
+        profileCards = $('.cards'),
+		profileCard =	$('.cards').find('.card'),
 		cardsNumber = profileCard.length, //calculating ul.cards width
 		cardWidth = profileCard.outerWidth(true), //calculating ul.cards width
 		ulCardsWidth = cardWidth * cardsNumber, //calculating ul.cards width
-		header = $('.header-style'),
+		header = $('#fixed-header'),
 		headerHeight = header.outerHeight(),
-        LogoSlides = $('.logo-container .owl-item'),
-        FirstSlide = LogoSlides.find('.logo[data-slide="slide1"]');
+        LogoContainer = $('.logo-container'),
+		LangList = $('.lang-list');
+
+    	customerDataChanger ();
 
 
-	
+
+       if(windowWidth>1000){
+           $('[data-toggle="tooltip"]').tooltip();
+	   }
+
+
 		
 
 
@@ -60,6 +68,13 @@ jQuery(function ($) {
 			});
 		});
 	});
+	$('.lang-list li').on('click',function(){
+		var LangList = $('.lang-list'),
+			$this = $(this);
+
+        classUpdater(LangList, $this, "active-lang");
+		return $this.data('lang');
+	});
 /*--------------End Language Window--------------*/
 
 
@@ -97,10 +112,10 @@ jQuery(function ($) {
 
 
 /*---------------smooth scrolling to contact section------------*/
-    $('.start-btn').on('click',function(event){
+    $('.start-btn').on('click',function(e){
 
         if(this.hash !=""){
-            event.preventDefault();
+            e.preventDefault();
 
             var hash = this.hash;
 
@@ -120,29 +135,96 @@ jQuery(function ($) {
 
 
 
-	/////Logo Bar Slider Functions
-	/*----------Logo Colorize Function------------*/
-        function colorize( selected) {
-        	console.log(selected);
-            LogoSlides.find('.selected').removeClass('selected');
-            selected.addClass('selected');
-        }
-	/*---------End Of Logo Colorize Function------------*/
+	/*------------Logo Bar Slider Functions ---------------*/
+	LogoContainer.on('translated.owl.carousel', customerDataChanger); //changes data as logo changes
 
+	//Jumps To The Selected Slide
+    LogoContainer.find('.owl-item').on('click',function (e) {
+		e.preventDefault();
+		 var n = $(this).index();
+		if(windowWidth < 1000){
+            LogoContainer.trigger('to.owl.carousel', n-4);
+		}else{
+            LogoContainer.trigger('to.owl.carousel', n-5);
+		}
 
-	/*-----------Run Colorize() On Click-----------*/
-    	LogoSlides.find('li.logo').on('click',function (e) {
-			e.preventDefault();
-			colorize( $(this) );
+        /* @TODO find out why should I -5 the index to navigate property */
+    });
+
+    //Stops Logo Slide When Mouse Enters The Detail Section
+	//And Starts Whe Mouse Leaves.
+    $('#product-view').on('mouseenter',function(){
+        LogoContainer.trigger('stop.owl.autoplay');
+    })
+		.on('mouseleave',function() {
+            LogoContainer.trigger('play.owl.autoplay');
         });
-	/*----------- End Run Colorize() On Click-----------*/
 
 
-	/*---------Colorize First On Load--------*/
-		colorize(FirstSlide);
-	/*---------End Colorize First On Load--------*/
+    //Gets Data And Updates The Customer Section
+    function customerDataChanger () {
+        var centralLogo = $('.center'),
+            data = centralLogo.find('.product-data'),
+            imgSrc = data.find('img').attr('src'),
+            header = data.find('h1').text(),
+            paragraph = data.find('p').text(),
+            linkAdd = data.find('a').attr('href'),
+            product = $('.product');
+
+        classUpdater(LogoContainer, centralLogo,"color");
+
+        product.find('.product-pic images').attr('src',imgSrc);
+        product.find('.product-title').text(header);
+        product.find('.description').text(paragraph);
+        product.find('.product-link').attr('href',linkAdd);
+    };
+	/*------------ End Logo Bar Slider Functions ---------------*/
+
+
+
+
+
+
+
+	/*------------Profile Cards ------------------*/
+    profileCard.on('click', function () {
+        staffDataChanger( this ); //Updates Profile Data In The Upper Row On Click
+    });
+
+
+    //Gets Data And Updates The About Section
+    function staffDataChanger (This) {
+        var container = $('.story-container'),
+            $this = $(This),
+            imgSrc = $this.find('.profile-data images').attr('src'),
+            name = $this.find('.profile-name').text(),
+            jobtitle = $this.find('.profile-title').text(),
+            story = $this.find('.profile-data p').text();
+
+        classUpdater(profileCards, $this ,"active-card");
+
+        container.find('.about-image-lg images').attr('src', imgSrc);
+        container.find('.job-title').text(jobtitle);
+        container.find('.name').text(name);
+        container.find('.story').text(story);
+
+    };
+	/*------------End Profile Cards ------------------*/
+
 
 
 
 
 }); /*siaf ends*/
+
+
+//Function For Removing Existing Class And Adding To
+//New Location. "selected" Is The New Class Position.
+//"className" Should Be Passed As String.
+function classUpdater(parentEl, selected, className) {
+    var classSelector = "."+ className;
+    parentEl.find(classSelector).removeClass(className);
+    selected.addClass(className);
+}
+
+

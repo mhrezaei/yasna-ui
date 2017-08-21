@@ -313,7 +313,7 @@ a.logo:visited, a.logo:active{
 	-o-transition: all .3s cubic-bezier(.694,0,.335,1);
 	transition: all .3s cubic-bezier(.694,0,.335,1);
 }
-.logo-container .logo.selected {
+.logo-container .color .logo {
 	-webkit-filter: grayscale(0%);
 	filter: grayscale(0%);
 }
@@ -328,6 +328,9 @@ a.logo:visited, a.logo:active{
 	object-fit: contain;
 }
 .logo-container .owl-nav, .logo-container .owl-dots{
+	display: none;
+}
+.product-data{
 	display: none;
 }
 .product{
@@ -345,6 +348,7 @@ a.logo:visited, a.logo:active{
 
 .product-pic{
 	width: 100%;
+	max-height: 400px;
 	padding: 20px 10px;
 	overflow: hidden;
 	position: relative;
@@ -461,7 +465,7 @@ a.logo:visited, a.logo:active{
 	transition: all .3s cubic-bezier(.694,0,.335,1);
 }
 
-.active-card{
+.active-card .card-image{
 	-webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
 	filter: grayscale(0%);
 	-webkit-transition: all .3s cubic-bezier(.694,0,.335,1);
@@ -472,7 +476,7 @@ a.logo:visited, a.logo:active{
 .card-image{
 	height: 150px;
 	overflow: hidden;
-	-webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
 	filter: grayscale(100%);
 	-webkit-transition: all .3s cubic-bezier(.694,0,.335,1);
 	-o-transition: all .3s cubic-bezier(.694,0,.335,1);
@@ -526,6 +530,9 @@ a.logo:visited, a.logo:active{
 	-webkit-transition: opacity .3s cubic-bezier(.694,0,.335,1);
 	-o-transition: opacity .3s cubic-bezier(.694,0,.335,1);
 	transition: opacity .3s cubic-bezier(.694,0,.335,1);
+}
+.profile-data{
+	display: none;
 }
 
 .contact{
@@ -654,7 +661,7 @@ aside{
 	right: 0;
 	bottom: 0;
 	background: rgba(0,0,0,0.85);
-	z-index: 50;
+	z-index: 1000;
 	display: none;
  	width: 100%;
  	height: 100%;
@@ -811,6 +818,9 @@ aside .close-btn:hover{
 	.service, .customers, .about, .contact{
 		padding-left: 0;
 		padding-right: 0;
+	}
+	.contact{
+		padding-top:50px;
 	}
 	.hover-slide{
 		display: none;

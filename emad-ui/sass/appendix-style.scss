@@ -1,0 +1,127 @@
+@import "style";
+
+.appendix{
+  position: absolute;
+  top: $header-height;
+  right:0;
+  left:0;
+  bottom:0;
+  .container{
+    display: table;
+    height: 100%;
+  }
+}
+.year-container{
+  display: table-cell;
+  vertical-align: middle;
+  margin: 0 auto;
+  text-align: center;
+  .main-title{
+    margin-bottom: 40px;
+  }
+}
+.years{
+  text-align: center;
+  @extend %clearfix;
+  .year{
+    display: inline-block;
+    font-size: 55px;
+    font-weight: 300;
+    margin-right: 20px;
+    a{
+      color: #888;
+      float: left;
+      opacity: 0.6;
+      @include transition(opacity .5s cubic-bezier(.694,0,.335,1));
+      /*&:hover{
+        opacity: 1;
+        @include transition(opacity .5s cubic-bezier(.694,0,.335,1));
+      }*/
+    }
+    span{
+      color:#444;
+      float: left;
+      font-weight: 500;
+    }
+    &:last-child{
+      span{
+        /*visibility: hidden;*/
+      }
+    }
+  }
+}
+
+.year.blink{
+  a{
+    opacity: 1;
+    @include transition(opacity .5s cubic-bezier(.694,0,.335,1));
+  }
+}
+
+
+.scroll{
+  width:300px;
+  height:300px;
+  margin:0 auto;
+  /*border: $gray-narrow-border;*/
+  overflow: hidden;
+  position: relative;
+  .years{
+    width: 100%;
+    /*overflow-y: scroll;*/
+    position: absolute;
+    top:0;
+    text-align: left;
+    @extend %clearfix;
+    .year{
+      width: 300px;
+      margin-right: 0;
+      float: left;
+      text-align: center;
+      a{
+        transform: scale(.9,.9);
+        width: 100%;
+        margin-right: 0;
+        @include transition(all .5s cubic-bezier(.694,0,.335,1));
+      }
+    }
+  }
+}
+
+.year.active{
+  a{
+    opacity: 1;
+    transform: scale(1,1) !important;
+    @include transition(all .5s cubic-bezier(.694,0,.335,1));
+  }
+}
+
+
+/* @TODO Media Query Commented out temporarily*/
+
+@media(min-width: 768px) {
+  .appendix{
+    top: $header-height-big;
+  }
+}
+
+/*
+@media(max-width: 991px) {
+
+  .years .year{
+    font-size: 40px;
+  }
+}
+@media(max-width: 668px) {
+
+  .years .year{
+    font-size: 30px;
+  }
+}
+@media(max-width: 425px) {
+
+  .years .year{
+    font-size: 26px;
+    margin-right:5px;
+  }
+}*/

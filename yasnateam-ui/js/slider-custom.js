@@ -72,14 +72,14 @@
 		/*----------Logo Slider-----------*/
 
 		$('.logo-container').owlCarousel({
-			margin:200,
+			// margin:200,
+			center:true,
     		loop:true,
     		autoplay:true,
     		autoWidth:true,
 			autoplayTimeout:5000,
-            autoplayHoverPause:true,
+			autoplayHoverPause:true,
     		responsiveClass:true,
-            center:true,
 		    responsive:{
 		        0:{
 		            items:3,
@@ -92,7 +92,7 @@
 		            margin:100
 		        },
 		        1000:{
-		            items:4,
+		            items:5,
 		            nav:false,
 		            margin:100
 		        },
@@ -103,6 +103,8 @@
 		        }
 		    }
 		});
+
+
 	/*----------End Logo Slider-----------*/
 
 
@@ -140,3 +142,4 @@
 	/*-----------End Cards slider--------------*/
 		
 })(); /* End Of Siaf */
+

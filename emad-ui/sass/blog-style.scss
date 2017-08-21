@@ -1,0 +1,148 @@
+@import "style";
+
+/* variales*/
+
+$footer-height: 100px;
+$img-size: $footer-height - 20px;
+/* End variales*/
+
+.owl-nav, .owl-dots{
+  display: none;
+}
+
+.img-bar{
+  position: fixed;
+  bottom: 0;
+  left:0;
+  right:0;
+  height:$footer-height;
+  border-top: $gray-narrow-border;
+  overflow: hidden;
+  padding: 10px 0;
+  background: #fff;
+  .img-bar-inner{
+    width: 100%;
+  }
+}
+.img-row{
+  height: $img-size;
+  width:-webkit-max-content;
+  width:-moz-max-content;
+  width:max-content;
+  @extend .list-reset;
+  @extend %clearfix;
+  .item{
+    float: right;
+    cursor: pointer;
+    width:$img-size;
+    height: $img-size;
+    @include transition(all .3s);
+    img{
+      width:$img-size;
+      height: $img-size;
+    }
+    &:hover{
+      -webkit-transform: scale(1.2,1.2);
+      -moz-transform: scale(1.2,1.2);
+      -ms-transform: scale(1.2,1.2);
+      -o-transform: scale(1.2,1.2);
+      transform: scale(1.2,1.2);
+      @include transition(all .3s);
+    }
+  }
+}
+.stylize li{
+  -webkit-transform: skew(-30deg);
+  -moz-transform: skew(-30deg);
+  -ms-transform: skew(-30deg);
+  -o-transform: skew(-30deg);
+  transform: skew(-30deg);
+  overflow: hidden;
+  width:$img-size;
+  height: $img-size;
+  &:hover{
+    -webkit-transform: scale(1.2,1.2) skew(30deg);
+    -moz-transform: scale(1.2,1.2) skew(30deg);
+    -ms-transform: scale(1.2,1.2) skew(30deg);
+    -o-transform: scale(1.2,1.2) skew(30deg);
+    transform: scale(1.2,1.2) skew(30deg);
+    @include transition(all .3s);
+  }
+    img{
+      -webkit-transform: skew(30deg);
+      -moz-transform: skew(30deg);
+      -ms-transform: skew(30deg);
+      -o-transform: skew(30deg);
+      transform: skew(30deg);
+      object-fit: cover;
+      width: 160px !important;
+      height: 160px !important;
+      &:hover{
+        -webkit-transform: scale(1.2,1.2);
+        -moz-transform: scale(1.2,1.2);
+        -ms-transform: scale(1.2,1.2);
+        -o-transform: scale(1.2,1.2);
+        transform: scale(1.2,1.2);
+        @include transition(all .3s);
+        width:$img-size !important;
+        height: $img-size !important;
+      }
+    }
+}
+
+
+.blog-post{
+  position: fixed;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  overflow: hidden;
+  .post{
+    position: absolute;
+    top:40px;
+    bottom: $footer-height;
+    right:0;
+    left:0;
+    overflow-y: scroll;
+    p{
+      margin: 15px;
+      font-size: 14px;
+      line-height: 24px;
+      color:$medium-gray;
+    }
+  }
+}
+.post-title{
+  color:#888;
+  font-weight: 300;
+  margin:20px 0;
+  font-size: 3em;
+}
+.post-title.bold{
+  color:#b1b1b1;
+  font-weight: 700;
+  margin:20px 0;
+  font-size: 3.5em;
+}    /* Test Class @TODO should be removed */
+
+.post figure{
+  text-align: center;
+  margin-bottom: 10px;
+  img{
+    max-width: 100%;
+    max-height:500px;
+  }
+  figcaption{
+    font-size: 14px;
+    line-height: 24px;
+    color:$medium-gray;
+    margin: 5px 0;
+  }
+}
+
+@media(min-width: 768px) {
+  .blog-post .post{
+    top: $header-height-big;
+  }
+}

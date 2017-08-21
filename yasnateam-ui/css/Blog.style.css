@@ -1,0 +1,63 @@
+.has-dark-background body, .has-dark-background h1, .has-dark-background h2,
+.has-dark-background h3, .has-dark-background h4,
+.has-dark-background h5, .has-dark-background h6{
+    color: #fff;
+}
+.is-hidden{
+    display: none;
+}
+.has-dark-bg{
+    color: #fff;
+}
+.header-style{
+    position: absolute;
+    top:0;
+    left:0;
+    right:0;
+    z-index: 700;
+    background: transparent;
+}
+.has-dark-bg .logo{
+    color: #fff;
+}
+.has-dark-bg .logo:hover{
+    color: #fff;
+}
+.has-dark-bg .btn-login{
+    background: transparent;
+    color: #fff;
+}
+.has-dark-bg.generic-hero{
+    background: #000;
+    color: #fff;
+}
+
+.generic-hero{
+    position: relative;
+    height: 320px;
+
+}
+.generic-hero img{
+    display: none;
+}
+.generic-hero .container-fluid{
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+.hero-inner{
+    display: table-cell;
+    vertical-align: middle;
+}
+.hero-header{
+
+}
+.hero-title{
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: .6em;
+    font-weight:500;
+    font-size: 18px;
+    line-height: 1.66666667em;
+    letter-spacing: .19444444em;
+}
