@@ -326,6 +326,7 @@ a.logo:visited, a.logo:active{
 .logo img{
 	-o-object-fit: contain;
 	object-fit: contain;
+	height: 60px;
 }
 .logo-container .owl-nav, .logo-container .owl-dots{
 	display: none;
