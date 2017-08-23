@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/yasna-ui.iml" filepath="$PROJECT_DIR$/.idea/yasna-ui.iml" />
+      <module fileurl="file://C:\xampp\htdocs\yasna-ui\.idea\yasna-ui.iml" filepath="C:\xampp\htdocs\yasna-ui\.idea\yasna-ui.iml" />
     </modules>
   </component>
 </project>
