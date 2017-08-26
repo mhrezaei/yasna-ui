@@ -323,7 +323,7 @@ a.logo:visited, a.logo:active{
 	filter: grayscale(0%);
 }
 
-.logo img{
+.logo-row .logo img{
 	-o-object-fit: contain;
 	object-fit: contain;
 	height: 60px;
