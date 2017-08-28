@@ -1,4 +1,4 @@
-
+/* mixins*/
 @mixin keyframes($animation-name) {
   @-webkit-keyframes #{$animation-name} {
     @content;
@@ -24,7 +24,26 @@
   -o-animation: #{$str};
   animation: #{$str};
 } //usage @include keyframes(slide-down){} & @include animation('slide-down 5s 3');
+/* end of mixins */
 
+/* general classes */
+.center{
+  text-align: center;
+}
+.ltr{
+  direction: ltr;
+}
+.is-hidden{
+  display: none;
+}
+.is-visible{
+  display: inline-block;
+}
+/* end of general classes */
+
+*{
+  font-family: "IranSans";
+}
 
 html,body, .wrapper{
   height:100%;
@@ -50,29 +69,36 @@ header{
   }
 }
 
-main{
-  position: absolute;
+.main{
+  position: relative;
   top:0;
   left:0;
   right:0;
   min-height: 100%;
-  background: url("../images/summer-hand.png"), url("../images/summer.jpg");
-  background-position: right bottom,center;
-  background-repeat: no-repeat, no-repeat;
-  background-size: 20% auto, cover;
-  background-attachment:fixed, scroll;
+
   .color-offset{
     background: rgba(255,255,255,0.4);
     min-height: 100%;
     width: 100%;
+    position: absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom: 0;
   }
   .main-container{
-    min-height: 100%;
     position: relative;
+    min-height: 100%;
+    .row{
+      min-height: 100%;
+    }
     .content{
       display: table;
       width: 100%;
-      height:800px;
+      max-width: 820px;
+      min-height: 100%;
+      margin: auto;
+      margin-top: 150px;
       .inner-content{
         display: table-cell;
         vertical-align: middle;
@@ -81,12 +107,148 @@ main{
     }
   }
 }
+
 .color-title{
   text-align: center;
-  font-size: 25px;
+  font-size: 30px;
   font-weight: 400;
   transition: color 0.3s;
+  margin-bottom: 20px;
   @include animation('change-color 3s infinite linear')
+}
+.telegram-link{
+  font-size: 30px;
+}
+.headline{
+  font-size: 24px;
+  text-align: right;
+  .word-wrapper{
+    overflow: hidden;
+    width: 100%;
+    max-width: 100%;
+    border-right:2px solid #a5a5a5;
+    line-height: 40px;
+    height: 40px;
+  }
+}
+.shutter{
+  overflow: hidden;
+  display: inline-block;
+  line-height: 40px;
+  b{
+    background: linear-gradient(to right, rgba(67, 206, 162, 0.77), rgba(24, 90, 157, 0.76));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    white-space: nowrap;
+    line-height: 40px;
+    margin: 0 10px;
+  }
+}
+.timer{
+  width:100%;
+  max-width: 820px;
+  margin: 10px 0;
+}
+.count-wrapper{
+  margin-top: 20px;
+  color: #1A2865;
+  line-height: 40px;
+  font-weight: bold;
+  text-align: center;
+  h2{
+    font-size: 40px;
+  }
+}
+.btn-wrapper{
+  margin-top:45px;
+  text-align: center;
+  .btn-custom{
+    background: #ee6e73;
+    color: #fff;
+    border: 2px solid #ee6e73 !important;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    font-weight: 400;
+    padding: 9px 45px;
+    border-radius: 0;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    font-size: 17px;
+    text-align: center;
+  }
+}
+
+footer {
+  text-align: center;
+  margin-top: 45px;
+  width: 100%;
+  padding:20px 0;
+}
+
+.sidebar{
+  top:0;
+  left: 0;
+  bottom: 0;
+  height: 100%;
+  position: fixed;
+  display: table;
+}
+.socials{
+  display: table-cell;
+  vertical-align: middle;
+  list-style-type: none;
+  padding-left: 40px;
+}
+a.social-link{
+  color:#fff;
+  border-radius: 50%;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  line-height: 46px;
+  text-align: center;
+  font-size: 20px;
+  margin:10px;
+  transition: opacify 0.3s;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+a.social-link:hover{
+  color: #fff;
+  opacity: 0.8;
+  transition: opacify 0.3s;
+}
+.facebook{
+  background: #3B5998;
+}
+.telegram{
+  background: #337ab7;
+}
+.instagram{
+  background: #ea4c89;
+}
+.site{
+  background: #a4c639;
+}
+.footbar{
+    display: none;
+  .socials {
+    display: inline-block;
+    padding:0;
+    li{
+      float: right;
+    }
+  }
+}
+
+
+
+
+@media (max-width: 1023px) {
+  .sidebar{
+    display: none;
+  }
+  .footbar{
+    display: block;
+  }
 }
 
 @media (max-width: 767px){
@@ -94,6 +256,44 @@ main{
     text-align: center;
   }
 }
+
+@media (max-width: 820px) {
+  .color-title{
+    font-size: 25px;
+  }
+  .telegram-link{
+    font-size: 20px;
+  }
+  .headline{
+    font-size: 20px;
+  }
+  .count-wrapper{
+    h2{
+      font-size: 30px;
+    }
+    .btn-wrapper, footer{
+      margin-top:20px;
+    }
+  }
+}
+
+@media (max-width: 500px){
+  .headline{
+    font-size: 12px;
+  }
+  .count-wrapper{
+    h2{
+      font-size: 18px;
+    }
+  }
+  .btn-wrapper{
+    .btn-custom{
+      padding: 9px 25px;
+      font-size: 15px;
+    }
+  }
+}
+
 
 @include keyframes(change-color){
   0%{

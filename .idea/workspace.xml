@@ -7,16 +7,59 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="61104f86-bd8b-47ba-8670-74274105debd" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ehda-summer-ui/css/bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ehda-summer-ui/css/bootstrap.rtl.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ehda-summer-ui/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ehda-summer-ui/js/bootstrap.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ehda-summer-ui/js/jquery-3.2.1.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ehda-summer-ui/sass/style.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/yasnateam-ui/css/typography.css" afterPath="$PROJECT_DIR$/yasnateam-ui/css/typography.rtl.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ehda-summer-ui/fonts/IRANSans-Bold-web.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ehda-summer-ui/fonts/IRANSans-Bold-web.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ehda-summer-ui/fonts/IRANSans-Bold-web.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ehda-summer-ui/fonts/IRANSans-Bold-web.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ehda-summer-ui/fonts/IRANSans-Light-web.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ehda-summer-ui/fonts/IRANSans-Light-web.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ehda-summer-ui/fonts/IRANSans-Light-web.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ehda-summer-ui/fonts/IRANSans-Light-web.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ehda-summer-ui/fonts/IRANSans-Medium-web.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ehda-summer-ui/fonts/IRANSans-Medium-web.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ehda-summer-ui/fonts/IRANSans-Medium-web.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ehda-summer-ui/fonts/IRANSans-Medium-web.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ehda-summer-ui/fonts/IRANSans-UltraLight-web.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ehda-summer-ui/fonts/IRANSans-UltraLight-web.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ehda-summer-ui/fonts/IRANSans-UltraLight-web.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ehda-summer-ui/fonts/IRANSans-UltraLight-web.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ehda-summer-ui/fonts/IRANSans-web.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ehda-summer-ui/fonts/IRANSans-web.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ehda-summer-ui/fonts/IRANSans-web.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ehda-summer-ui/fonts/IRANSans-web.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ehda-summer-ui/fonts/IRANSansWeb.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ehda-summer-ui/fonts/IRANSansWeb.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ehda-summer-ui/fonts/IRANSansWeb.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ehda-summer-ui/fonts/IRANSansWeb.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ehda-summer-ui/fonts/IRANSansWeb_Bold.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ehda-summer-ui/fonts/IRANSansWeb_Bold.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ehda-summer-ui/fonts/IRANSansWeb_Bold.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ehda-summer-ui/fonts/IRANSansWeb_Bold.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ehda-summer-ui/fonts/IRANSansWeb_Light.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ehda-summer-ui/fonts/IRANSansWeb_Light.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ehda-summer-ui/fonts/IRANSansWeb_Light.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ehda-summer-ui/fonts/IRANSansWeb_Light.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ehda-summer-ui/fonts/IRANSansWeb_Medium.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ehda-summer-ui/fonts/IRANSansWeb_Medium.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ehda-summer-ui/fonts/IRANSansWeb_Medium.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ehda-summer-ui/fonts/IRANSansWeb_Medium.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ehda-summer-ui/fonts/IRANSansWeb_Regular.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ehda-summer-ui/fonts/IRANSansWeb_Regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ehda-summer-ui/fonts/IRANSansWeb_Regular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ehda-summer-ui/fonts/IRANSansWeb_Regular.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ehda-summer-ui/fonts/IRANSansWeb_UltraLight.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ehda-summer-ui/fonts/IRANSansWeb_UltraLight.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ehda-summer-ui/fonts/IRANSansWeb_UltraLight.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ehda-summer-ui/fonts/IRANSansWeb_UltraLight.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ehda-summer-ui/css/TimeCircles.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ehda-summer-ui/css/fontiran.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ehda-summer-ui/js/TimeCircles.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ehda-summer-ui/js/custom.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yasnateam-ui/index-farsi.html" afterPath="$PROJECT_DIR$/yasnateam-ui/index-farsi.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yasnateam-ui/js/custom.js" afterPath="$PROJECT_DIR$/yasnateam-ui/js/custom.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ehda-summer-ui/css/style.min.css" afterPath="$PROJECT_DIR$/ehda-summer-ui/css/style.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ehda-summer-ui/css/style.min.css.map" afterPath="$PROJECT_DIR$/ehda-summer-ui/css/style.min.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ehda-summer-ui/index.html" afterPath="$PROJECT_DIR$/ehda-summer-ui/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ehda-summer-ui/sass/style.scss" afterPath="$PROJECT_DIR$/ehda-summer-ui/sass/style.scss" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -43,28 +86,62 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ehda-summer-ui/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="33" column="54" lean-forward="false" selection-start-line="33" selection-start-column="43" selection-end-line="33" selection-end-column="54" />
-              <folding />
+            <state relative-caret-position="-714">
+              <caret line="80" column="43" lean-forward="false" selection-start-line="80" selection-start-column="36" selection-end-line="80" selection-end-column="43" />
+              <folding>
+                <element signature="n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#h2#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#p#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#h3#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="e#2123#2129#0" expanded="true" />
+                <element signature="e#2143#2149#0" expanded="true" />
+                <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#style#0;n#strong#0;n#h2#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#style#0;n#a#1;n#p#0;n#footer#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#nav#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ehda-summer-ui/sass/style.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="300">
-              <caret line="88" column="36" lean-forward="false" selection-start-line="88" selection-start-column="36" selection-end-line="88" selection-end-column="36" />
+              <caret line="234" column="14" lean-forward="false" selection-start-line="234" selection-start-column="14" selection-end-line="234" selection-end-column="14" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_style.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/emad-ui/sass/_style.scss">
+      <file leaf-file-name="blog-post.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/yasnateam-ui/blog-post.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="638">
-              <caret line="41" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="48" selection-end-column="83" />
+            <state relative-caret-position="872">
+              <caret line="323" column="20" lean-forward="false" selection-start-line="323" selection-start-column="20" selection-end-line="323" selection-end-column="20" />
+              <folding>
+                <element signature="n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="custom.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ehda-summer-ui/js/custom.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="299">
+              <caret line="106" column="1" lean-forward="false" selection-start-line="106" selection-start-column="1" selection-end-line="106" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="custom.js" pinned="false" current-in-tab="false">
+        <entry file="file://D:/Negar/Projects/File Manager project/File Maneger/js/custom.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="844">
+              <caret line="115" column="33" lean-forward="false" selection-start-line="115" selection-start-column="31" selection-end-line="115" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -75,10 +152,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
-        <option value="JavaScript File" />
         <option value="HTML File" />
         <option value="SCSS File" />
+        <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -104,6 +181,7 @@
       <find>,</find>
       <find>05</find>
       <find>\&lt;div class\=\&quot;wrapper\&quot;\&gt;\n   \&lt;\!\-\-header\-\-\&gt; \n    \&lt;header\&gt;\n        \n    \&lt;\/header\&gt;\n    \&lt;\!\-\-end header\-\-\&gt;\n\&lt;\!\-\-main\-\-\&gt;\n    \&lt;main\&gt;\n         \&lt;div class\=\&quot;color\-offset\&quot;\&gt;\n             \&lt;div class\=\&quot;container\-fluid main\-container\&quot;\&gt;\n                 \&lt;div class\=\&quot;row\&quot;\&gt;\n                     \&lt;div class\=\&quot;col\-md\-10 col\-md\-offset\-1\&quot;\&gt;\n                        \n                     \&lt;\/div\&gt;\n                 \&lt;\/div\&gt;\n             \&lt;\/div\&gt;\n         \&lt;\/div\&gt;\n    \&lt;\/main\&gt;\n\&lt;\!\-\- end main \-\-\&gt;\n\&lt;\/div\&gt;\n</find>
+      <find>pd</find>
     </findStrings>
     <replaceStrings>
       <replace>div</replace>
@@ -119,6 +197,9 @@
         <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="mock:///Dummy.txt" root0="SKIP_INSPECTION" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -157,8 +238,11 @@
         <option value="$PROJECT_DIR$/yasnateam-ui/index-farsi.html" />
         <option value="$PROJECT_DIR$/yasnateam-ui/index.html" />
         <option value="$PROJECT_DIR$/yasnateam-ui/js/custom.js" />
+        <option value="$PROJECT_DIR$/yasnateam-ui/.idea/yasna-ui.iml" />
+        <option value="$PROJECT_DIR$/ehda-summer-ui/css/fontiran.css" />
         <option value="$PROJECT_DIR$/ehda-summer-ui/index.html" />
         <option value="$PROJECT_DIR$/ehda-summer-ui/sass/style.scss" />
+        <option value="$PROJECT_DIR$/ehda-summer-ui/js/custom.js" />
       </list>
     </option>
   </component>
@@ -213,6 +297,7 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -235,38 +320,6 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="emad-ui" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="yasna-ui" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="yasna-ui" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="emad-ui" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sass" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="yasna-ui" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="yasna-ui" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="ehda-summer-ui" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
@@ -285,35 +338,12 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="style.min.css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NestingTreeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="yasna-ui" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="yasna-ui" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ehda-summer-ui" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
+              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -321,7 +351,7 @@
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../blog" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="list.type.of.created.stylesheet" value="SCSS" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="node.js.path.for.package.jscs" value="project" />
     <property name="node.js.detected.package.jscs" value="true" />
@@ -329,9 +359,12 @@
     <property name="SearchEverywhereHistoryKey" value="logo&#9;null&#9;null&#10;dark-bg&#9;null&#9;null" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\yasna-ui\ehda-summer-ui" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\yasna-ui\ehda-summer-ui\js" />
       <recent name="C:\xampp\htdocs\yasna-ui\ehda-summer-ui\css" />
+      <recent name="C:\xampp\htdocs\yasna-ui\ehda-summer-ui\js" />
       <recent name="C:\xampp\htdocs\yasna-ui\emad-ui" />
       <recent name="C:\xampp\htdocs\yasna-ui\emad-ui\js" />
       <recent name="C:\xampp\htdocs\yasna-ui\emad-ui\css" />
@@ -450,12 +483,13 @@
       <workItem from="1503320409060" duration="565000" />
       <workItem from="1503464435289" duration="6512000" />
       <workItem from="1503725266999" duration="4407000" />
-      <workItem from="1503810306586" duration="16033000" />
+      <workItem from="1503810306586" duration="16361000" />
+      <workItem from="1503896001946" duration="29003000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="218757000" />
+    <option name="totallyTimeSpent" value="248088000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -467,14 +501,13 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15938166" sideWeight="0.4963119" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1609808" sideWeight="0.4963119" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32982087" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32982087" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32982087" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32982087" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.10642782" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25160944" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -486,6 +519,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32982087" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -528,43 +562,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/yasnateam-ui/blog-post.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1222">
-          <caret line="47" column="36" lean-forward="true" selection-start-line="47" selection-start-column="36" selection-end-line="47" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yasnateam-ui/css/Blog.style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="884">
-          <caret line="34" column="17" lean-forward="false" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yasnateam-ui/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#section#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#section#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#aside#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yasnateam-ui/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8190">
-          <caret line="315" column="22" lean-forward="false" selection-start-line="315" selection-start-column="17" selection-end-line="315" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/yasnateam-ui/js/custom.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3900">
@@ -800,7 +797,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -829,7 +825,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="11414">
           <caret line="568" column="9" lean-forward="false" selection-start-line="568" selection-start-column="4" selection-end-line="568" selection-end-column="51" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -837,7 +832,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -853,24 +847,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="316">
           <caret line="174" column="0" lean-forward="false" selection-start-line="174" selection-start-column="0" selection-end-line="174" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yasnateam-ui/blog-post.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5399">
-          <caret line="323" column="20" lean-forward="false" selection-start-line="323" selection-start-column="20" selection-end-line="323" selection-end-column="20" />
-          <folding>
-            <element signature="n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/emad-ui/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="84" column="47" lean-forward="true" selection-start-line="78" selection-start-column="3" selection-end-line="84" selection-end-column="47" />
           <folding />
         </state>
       </provider>
@@ -891,18 +867,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ehda-summer-ui/index.html">
+    <entry file="file://$PROJECT_DIR$/emad-ui/sass/_style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="33" column="54" lean-forward="false" selection-start-line="33" selection-start-column="43" selection-end-line="33" selection-end-column="54" />
+        <state relative-caret-position="1066">
+          <caret line="41" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="48" selection-end-column="83" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/emad-ui/sass/_style.scss">
+    <entry file="file://$PROJECT_DIR$/yasnateam-ui/.idea/yasna-ui.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="638">
-          <caret line="41" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="48" selection-end-column="83" />
+        <state relative-caret-position="208">
+          <caret line="8" column="12" lean-forward="false" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ehda-summer-ui/css/fontiran.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="30" column="115" lean-forward="false" selection-start-line="30" selection-start-column="115" selection-end-line="30" selection-end-column="115" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/emad-ui/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1092">
+          <caret line="84" column="47" lean-forward="true" selection-start-line="78" selection-start-column="3" selection-end-line="84" selection-end-column="47" />
           <folding />
         </state>
       </provider>
@@ -910,7 +902,53 @@
     <entry file="file://$PROJECT_DIR$/ehda-summer-ui/sass/style.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
-          <caret line="88" column="36" lean-forward="false" selection-start-line="88" selection-start-column="36" selection-end-line="88" selection-end-column="36" />
+          <caret line="234" column="14" lean-forward="false" selection-start-line="234" selection-start-column="14" selection-end-line="234" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yasnateam-ui/blog-post.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="872">
+          <caret line="323" column="20" lean-forward="false" selection-start-line="323" selection-start-column="20" selection-end-line="323" selection-end-column="20" />
+          <folding>
+            <element signature="n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Negar/Projects/File Manager project/File Maneger/js/custom.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="844">
+          <caret line="115" column="33" lean-forward="false" selection-start-line="115" selection-start-column="31" selection-end-line="115" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ehda-summer-ui/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-714">
+          <caret line="80" column="43" lean-forward="false" selection-start-line="80" selection-start-column="36" selection-end-line="80" selection-end-column="43" />
+          <folding>
+            <element signature="n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#h2#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#p#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#h3#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="e#2123#2129#0" expanded="true" />
+            <element signature="e#2143#2149#0" expanded="true" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#strong#0;n#h2#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#a#1;n#p#0;n#footer#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#nav#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ehda-summer-ui/js/custom.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="106" column="1" lean-forward="false" selection-start-line="106" selection-start-column="1" selection-end-line="106" selection-end-column="1" />
           <folding />
         </state>
       </provider>
