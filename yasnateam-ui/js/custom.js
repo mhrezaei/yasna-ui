@@ -163,7 +163,7 @@ jQuery(function ($) {
 
     //Gets Data And Updates The Customer Section
     function customerDataChanger () {
-        var centralLogo = $('.center'),
+        var centralLogo = $('.logo-row .center'),
             data = centralLogo.find('.product-data'),
             imgSrc = data.find('img').attr('src'),
             header = data.find('h1').text(),
@@ -173,11 +173,12 @@ jQuery(function ($) {
 
         classUpdater(LogoContainer, centralLogo,"color");
 
-        product.find('.product-pic images').attr('src',imgSrc);
+
+        product.find('.product-pic img').attr('src',imgSrc);
         product.find('.product-title').text(header);
         product.find('.description').text(paragraph);
         product.find('.product-link').attr('href',linkAdd);
-    };
+    }
 	/*------------ End Logo Bar Slider Functions ---------------*/
 
 
@@ -196,19 +197,19 @@ jQuery(function ($) {
     function staffDataChanger (This) {
         var container = $('.story-container'),
             $this = $(This),
-            imgSrc = $this.find('.profile-data images').attr('src'),
+            imgSrc = $this.find('.profile-data img').attr('src'),
             name = $this.find('.profile-name').text(),
             jobtitle = $this.find('.profile-title').text(),
             story = $this.find('.profile-data p').text();
 
         classUpdater(profileCards, $this ,"active-card");
 
-        container.find('.about-image-lg images').attr('src', imgSrc);
+        container.find('.about-image-lg img').attr('src', imgSrc);
         container.find('.job-title').text(jobtitle);
         container.find('.name').text(name);
         container.find('.story').text(story);
 
-    };
+    }
 	/*------------End Profile Cards ------------------*/
 
 
