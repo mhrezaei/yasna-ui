@@ -55,17 +55,18 @@ header{
   left:0;
   background: rgba(255,255,255,0.7);
   padding:10px 30px;
+  height:77px;
   z-index: 1000;
   .container-fluid{
-    padding:20px;
+    padding:5px 20px;
+    height: 100%;
   }
 }
 .title-container{
-  margin:0 10px;
-  h1{
-    color: #666;
-    font-size: 20px;
-    margin:0;
+  display: inline-block;
+  height: 100%;
+  .header-logo{
+  height: 100%;
   }
 }
 
@@ -142,6 +143,7 @@ header{
     white-space: nowrap;
     line-height: 40px;
     margin: 0 10px;
+    color: #fff;
   }
 }
 .timer{
@@ -179,7 +181,6 @@ header{
 
 footer {
   text-align: center;
-  margin-top: 45px;
   width: 100%;
   padding:20px 0;
 }
@@ -252,8 +253,15 @@ a.social-link:hover{
 }
 
 @media (max-width: 767px){
-  .title-container{
-    text-align: center;
+  header{
+    height: 60px;
+  }
+  .main{
+    .main-container{
+      .content{
+        margin-top: 100px;
+      }
+    }
   }
 }
 
@@ -271,7 +279,7 @@ a.social-link:hover{
     h2{
       font-size: 30px;
     }
-    .btn-wrapper, footer{
+    .btn-wrapper{
       margin-top:20px;
     }
   }
@@ -292,6 +300,10 @@ a.social-link:hover{
       font-size: 15px;
     }
   }
+  header{
+    padding: 10px;
+  }
+
 }
 
 

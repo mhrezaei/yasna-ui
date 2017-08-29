@@ -1,21 +1,31 @@
-jQuery(function($){
+/*  helper functions */
+String.prototype.replaceAll = function (search, replacement) {
+    var target = this;
+    return target.replace(new RegExp(search, 'g'), replacement);
+};
+/* end of helper functions */
 
+
+/* Ready */
+jQuery(function($){
+    // On Load variables
     var shutter = $('.shutter'),
         texts = shutter.find('b'),
         fistText = texts.first(),
-        textWidth = fistText.outerWidth(true),
-        shutterWidth = shutter.width(textWidth);
+        textWidth = fistText.outerWidth(true);
 
-    texts.addClass('is-hidden');
-    fistText.removeClass('is-hidden').addClass('is-visible');
+
+    texts.addClass('is-hidden'); // Makes all headlines hidden.
+    fistText.removeClass('is-hidden').addClass('is-visible'); //Makes fist headline visible;
 
     shutterEffect();
     function shutterEffect(){
         shutter.animate({
             width: 0
         },2000, openShutter);
-    }
+    }//end of shutterEffect()
 
+    //slides to right, changes the visible class.
     function openShutter() {
         fistText.appendTo(shutter)
             .removeClass('is-visible').addClass('is-hidden');
@@ -28,10 +38,10 @@ jQuery(function($){
             shutterEffect();
             next();
         });
+    } //end of openShutter();
 
-    }
 
-    $('.timer').TimeCircles({
+ /*   $('.timer').TimeCircles({
         circle_bg_color: "#b4c4d4",
         time: {
             Days: {
@@ -53,10 +63,12 @@ jQuery(function($){
         },
         bg_width: 0.5,
         fg_width: 0.03
-    });
+    });*/
 
+ //On load and resize functions
     $(window).on("load resize",function(){
 
+        //circle timer initiation
         $('.timer').TimeCircles({
             circle_bg_color: "#b4c4d4",
             time: {
@@ -79,9 +91,25 @@ jQuery(function($){
             },
             bg_width: 0.5,
             fg_width: 0.03
-        }).rebuild();
-    });
+        }).rebuild(); //circle timer rebuilding on resize
 
+
+        //footer locating
+        var footer = $('footer').css("margin-top",  0),
+            documentHeight = $(document).height(),
+            containerHeight = $('.main-container').outerHeight(),
+            marginTop = documentHeight - (containerHeight);
+
+        if(marginTop===0){
+            //avoids that footer and it's top element stick
+            footer.css("margin-top",  25);
+        }else{
+            footer.css("margin-top",marginTop);
+        }//end if
+
+    }); //End of on load and resize functions
+
+    // Changing timer digits
     translate();
     function translate() {
         var day = $('.textDiv_Days span').text(),
@@ -94,17 +122,44 @@ jQuery(function($){
         min = pd(min);
         sec = pd(sec);
 
-        console.log(day)
+        /*console.log(day,hour,min,sec);*/
+
+        $('.textDiv_Days span').text(day); // not working !!!!
+        $('.textDiv_Hours span').text(hour); // not working !!!!
+        $('.textDiv_Minutes span').text(min); // not working !!!!
+        $('.textDiv_Seconds span').text(sec); // not working !!!!
+
+
+        setTimeout(translate,500);
     }
 
 
 
-
 }); //End Of siaf!
+/* End of Ready!!! */
 
-function pd(enDigit) {
-    return forms_digit_fa(enDigit);
+
+/* helper functions */
+function forms_pd($string) {
+    if (!$string){
+        return;
+    }
+    $string = $string.toString();
+
+    $string = $string.replaceAll(/1/g, "۱");
+    $string = $string.replaceAll(/2/g, "۲");
+    $string = $string.replaceAll(/3/g, "۳");
+    $string = $string.replaceAll(/4/g, "۴");
+    $string = $string.replaceAll(/5/g, "۵");
+    $string = $string.replaceAll(/6/g, "۶");
+    $string = $string.replaceAll(/7/g, "۷");
+    $string = $string.replaceAll(/8/g, "۸");
+    $string = $string.replaceAll(/9/g, "۹");
+    $string = $string.replaceAll(/0/g, "۰");
+
+    return $string;
 }
+
 
 function forms_digit_fa(enDigit) {
     return forms_pd(enDigit);
@@ -123,26 +178,8 @@ function forms_digit_fa(enDigit) {
     return newValue;
 }
 
+function pd(enDigit) {
+    return forms_digit_fa(enDigit);
 
-
-function forms_pd($string) {
-
-    $string = $string.toString();
-    console.log($string);
-
-
-    $string = $string.replaceAll(/1/g, "۱");
-    $string = $string.replaceAll(/2/g, "۲");
-    $string = $string.replaceAll(/3/g, "۳");
-    $string = $string.replaceAll(/4/g, "۴");
-    $string = $string.replaceAll(/5/g, "۵");
-    $string = $string.replaceAll(/6/g, "۶");
-    $string = $string.replaceAll(/7/g, "۷");
-    $string = $string.replaceAll(/8/g, "۸");
-    $string = $string.replaceAll(/9/g, "۹");
-    $string = $string.replaceAll(/0/g, "۰");
-
-    return $string;
 }
-
-
+/* End of helper functions */
