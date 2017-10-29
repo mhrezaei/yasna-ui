@@ -1,0 +1,35 @@
+/*
+*-------------------------------------------------------
+* Header styles
+*-------------------------------------------------------
+*/
+
+.nav-list{
+  .nav-list__item{
+    list-style-type: none;
+  }
+  a{
+    @include text($text__size--s,$text__line--s);
+    font-weight: 500;
+    opacity: 0.5;
+    &,
+    &:hover,
+    &:active,
+    &:focus,
+    &:visited{
+      color: $color__white;
+    }
+    &:hover{
+      opacity: 1;
+    }
+  }
+}
+
+header {
+  a:last-child{
+    margin:0;
+  }
+  a.btn{
+    opacity: 1;
+  }
+}

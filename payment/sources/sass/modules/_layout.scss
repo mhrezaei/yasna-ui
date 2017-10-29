@@ -42,16 +42,23 @@ body{
       // header logo a
     }
   }
+  @media (max-width: 767px) {
+    background: #ff7404;
+  }
 }
+.nav{
+
+}
+
 
 .banner{
   margin-bottom: 90px;
-  background: #ff7404;
+  background: rgba(255, 116, 4, 0.9) url("../../../public/assets/images/wave.svg") no-repeat center;
   .banner__header{
     position: relative;
     margin: -110px 0 45px;
     padding: 120px 0 0;
     text-align: center;
-    height: 500px;
+    height: 600px;
   }
 }
