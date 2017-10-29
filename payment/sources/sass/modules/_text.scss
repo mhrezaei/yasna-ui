@@ -1,0 +1,59 @@
+/*
+*
+* Typography related styles
+*/
+
+
+$text__family-sans:  IRANSans , sans-serif !default;
+
+$text__size--alpha: 36 !default;
+$text__size--beta: 30 !default;
+$text__size--gamma: 24 !default;
+$text__size--delta: 15 !default;
+
+$text__line--alpha: 40 !default;
+$text__line--beta: 36 !default;
+$text__line--gamma: 30 !default;
+$text__line--delta: 20 !default;
+
+$text__colour--base: #333333 !default;
+$text__colour--alpha: #990000 !default;
+$text__colour--beta: #990000 !default;
+$text__colour--gamma: #333333 !default;
+$text__colour--delta: #333333 !default;
+
+@mixin text($size, $line, $margin: 0, $family: $text__family-sans) {
+  font-size: calc-em($size);
+  line-height: ($line/$size);
+  font-family: $family;
+  margin-bottom: calc-em($margin, $size);
+}
+
+html {
+  font-size: $base__font-size * 1px;
+}
+
+body {
+  @include text($base__font-size, $base__line);
+}
+
+h1 {
+  @include text($text__size--delta, $text__line--delta, 15);
+  font-weight: bold;
+  color: $color__primary;
+}
+
+h2 {
+  @include text($text__size--beta, $text__line--beta, 15);
+  color: $text__colour--beta;
+}
+
+h3 {
+  @include text($text__size--gamma, $text__line--gamma, 15);
+  color: $text__colour--gamma;
+}
+
+p {
+  @include text($text__size--delta, $text__line--delta, 10);
+  color: $text__colour--delta;
+}

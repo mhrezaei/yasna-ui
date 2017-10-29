@@ -1,0 +1,38 @@
+$list__number-color: #CC0000 !default;
+
+.list--number {
+  counter-reset: items;
+  padding-top: calc-em(5);
+
+  .list__item {
+    margin-bottom: calc-em(5);
+
+    &:before {
+      counter-increment: items 1;
+      content: counter(items, decimal) ".";
+      color: $list__number-color;
+      margin-right: calc-em(5);
+    }
+  }
+
+  .list__item--end {
+    margin-bottom: 0;
+  }
+}
+
+.list--method {
+  @extend .list--number;
+
+  .list__item {
+    margin-bottom: calc-em(15);
+
+    &:before {
+      @include text($text__size--beta, $text__line--beta);
+      font-style: italic;
+    }
+  }
+
+  .list__item--end {
+    margin-bottom: 0;
+  }
+}

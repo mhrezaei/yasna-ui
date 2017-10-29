@@ -1,0 +1,27 @@
+//////////////////////////////////////////////////
+//                                              //
+//  Master Styling File                         //
+//                                              //
+//  # Imports all modules used in website       //
+//                                              //
+//  Created: 29-10-2017                         //
+//  Author: Yasna Team                          //
+//  http://yasnateam.com                        //
+//                                              //
+//////////////////////////////////////////////////
+
+/////////////////////
+// Required        //
+/////////////////////
+
+@import "base";
+@import "config";
+
+
+/////////////////////
+// Optional        //
+/////////////////////
+
+@import "modules/reset";
+@import "modules/text";
+@import "modules/lists";

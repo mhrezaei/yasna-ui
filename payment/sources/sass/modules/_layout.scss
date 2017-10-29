@@ -1,0 +1,38 @@
+/*
+*-------------------------------------------------------
+* Module: Layout
+*-------------------------------------------------------
+*/
+
+//
+// Main layout
+// This file controls the presentation of all components
+//  .wrapper
+//    > header
+//    > sections
+//    > footer
+//
+// If modified or removed make sure to check the variable
+// shared with other components
+// -------------------------------------------------------------
+
+html{
+  height: 100%;
+}
+
+body{
+  height: 100%;
+}
+
+.wrapper{
+  width: 100%;
+  height: auto;
+  min-width: 100%;
+}
+
+.header{
+  width: 100%;
+  position: relative;
+  margin-bottom: 16px;
+  padding: 25px 0 0;
+}
