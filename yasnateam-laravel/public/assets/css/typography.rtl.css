@@ -1,0 +1,181 @@
+
+*{
+    font-family: 'Open Sans', vazir, sans-serif;
+    direction: rtl;
+    letter-spacing: unset !important;
+}
+a.logo{
+    float: right;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: unset;
+    line-height:40px;
+}
+.header-btns{
+    float: left;
+}
+.btn-default{
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: unset;
+    letter-spacing: unset;
+}
+.cap-heading{
+    font-size: 32px;
+    font-weight: 600;
+    letter-spacing: unset;
+    text-transform: unset;
+    line-height: 47px;
+}
+
+.pop-heading{
+    line-height: 43px;
+    letter-spacing: unset;
+}
+.browser-design{
+    padding-right: 12px;
+}
+.browser-icon{
+    margin-left: 5px;
+}
+.text{
+    padding-right: 25px;
+    text-align: right;
+}
+.eyebrow{
+    font-weight: 500;
+    font-size: 12px;
+    letter-spacing: unset;
+    line-height: 13px;
+}
+.heading{
+    letter-spacing: unset;
+    text-transform: unset;
+    margin: 10px 0 18px;
+}
+
+.logo-container .logo{
+    float: right;
+}
+.product-content{
+    text-align: right;
+}
+.product-pic{
+    text-align: center;
+}
+.name{
+    letter-spacing: unset;
+    text-transform: unset;
+}
+.name.overlayer{
+    text-align: center;
+}
+.story-content{
+    text-align: right;
+}
+.profile-name{
+    text-transform: unset;
+    letter-spacing: unset;
+}
+.profile-title{
+    text-transform: unset;
+    letter-spacing: unset;
+}
+.footer-info ul{
+    padding-right: 10px;
+}
+.footer-info ul li{
+    letter-spacing: unset;
+}
+.info span{
+    margin-left: 5px;
+}
+.info .email{
+    letter-spacing: 1.5px;
+}
+.list-title{
+    text-transform: unset;
+    letter-spacing: unset;
+}
+.lang-btn i{
+    margin-right: 2px;
+}
+.social{
+    text-align: left;
+}
+.btn-wrapper{
+    direction: ltr;
+}
+/* list view Styles*/
+.post-info,.post-author{
+    float: right !important;
+}
+
+/*blog post styles */
+.share-post{
+    text-align: left;
+}
+
+
+@media(max-width: 1199px){
+    .text{
+        padding-right: 0;
+        text-align: center;
+    }
+    .heading{
+        max-width:unset;
+    }
+    .paragraph{
+        max-width:unset;
+    }
+
+    .heading.main{
+        padding-left: unset;
+    }
+    .product-content {
+        text-align: center;
+    }
+    .story-content{
+        text-align: center;
+    }
+}
+
+@media(max-width: 991px){
+    .social, .credit{
+        float: none;
+        text-align: center;
+    }
+}
+@media(max-width: 780px){
+
+    .slide-caption{
+        max-width: unset;
+        right: unset !important;
+    }
+
+}
+
+@media(max-width: 767px){
+    .cards .card{
+        float: right;
+    }
+}
+
+@media(max-width: 680px){
+    .btn-wrapper{
+
+        right:unset;
+
+    }
+}
+@media (max-width: 425px) {
+    .btn-default{
+        padding: 0 19px;
+    }
+
+}
+
+
+
+
+

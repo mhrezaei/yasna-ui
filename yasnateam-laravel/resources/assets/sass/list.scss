@@ -1,0 +1,153 @@
+/*Sass variables*/
+$gray-narrow-border: 1px solid rgba(0,0,0,.1);
+
+.post{
+  width:100%;
+  height:250px;
+  border:$gray-narrow-border;
+  position: relative;
+  margin-bottom: 40px;
+  a{
+    display: block;
+    color:unset;
+    text-decoration: none;
+  }
+  .thumbnail-img{
+    width:40%;
+    height: 100%;
+    position: absolute;
+    top:0;
+    left:0;
+    bottom:0;
+    overflow: hidden;
+    img{
+      position: absolute;
+      object-fit: cover;
+      top: 50%;
+      left:50%;
+      -webkit-transform: translate(-50%,-50%);
+      -ms-transform: translate(-50%,-50%);
+      transform: translate(-50%,-50%);
+    }
+  }
+  .post-details{
+    position: absolute;
+    top:0;
+    right:0;
+    left:40%;
+    bottom:0;
+    padding:20px 15px;
+      .category{
+        margin-top: 5px;
+        margin-bottom: 0;
+        a{
+          display: inline-block;
+          background: #c7c7c7;
+        }
+      }
+      h3{
+        text-transform: uppercase;
+        font-size: 18px;
+        line-height: 1.63636364em;
+        letter-spacing: .13636364em;
+        color: #222;
+        font-weight:600;
+        margin-top: 5px;
+      }
+    p{
+      color: #a7a7a7;
+    }
+  }
+  .posts-publication-meta{
+    position: absolute;
+    right:0;
+    left:0;
+    bottom: 0;
+    width: 100%;
+    border-top: $gray-narrow-border;
+    padding:5px 0;
+    .post-author{
+      width:40px;
+      height: 40px;
+      border-radius: 50%;
+      margin:0 10px;
+      line-height: 40px;
+    }
+    .post-info{
+      display: inline-block;
+      padding: 0 5px;
+      p{
+        margin-bottom: 0;
+        font-size: 13px;
+      }
+    }
+    .post-info,.post-author{
+      float: left;
+    }
+  }
+
+}
+
+.post:hover {
+  -webkit-box-shadow: 0 2px 10px 0 rgba(0,0,0,0.15);
+  box-shadow: 0 2px 10px 0 rgba(0,0,0,0.15);
+}
+
+.page-navigation{
+  text-align: center;
+  margin: 40px 0;
+    li a{
+      color: #000;
+    }
+  li a:hover{
+    color: #000;
+  }
+
+}
+
+@media (max-width: 570px) {
+
+  .post{
+    height:400px;
+
+    .thumbnail-img{
+      width:100%;
+      height: 40%;
+      top:0;
+      left:0;
+      right:0;
+      img{
+        width: 100%;
+        position: absolute;
+        object-fit: cover;
+        top: 50%;
+        left:50%;
+        -webkit-transform: translate(-50%,-50%);
+        -ms-transform: translate(-50%,-50%);
+        transform: translate(-50%,-50%);
+      }
+    }
+    .post-details{
+      top:40%;
+      right:0;
+      left:0;
+      bottom:0;
+
+      .category,h3,p{
+        text-align: center;
+      }
+    }
+  }
+
+}
+
+@media (min-width: 1200px) {
+  .col-lg-12 {
+    .thumbnail-img{
+      width:30%;
+    }
+    .post-details{
+      left:30%;
+    }
+  }
+}
