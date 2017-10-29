@@ -35,4 +35,23 @@ body{
   position: relative;
   margin-bottom: 16px;
   padding: 25px 0 0;
+  z-index: 5;
+  .header__logo{
+    // header logo div
+    .header__logo--link{
+      // header logo a
+    }
+  }
+}
+
+.banner{
+  margin-bottom: 90px;
+  background: #ff7404;
+  .banner__header{
+    position: relative;
+    margin: -110px 0 45px;
+    padding: 120px 0 0;
+    text-align: center;
+    height: 500px;
+  }
 }
