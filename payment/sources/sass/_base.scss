@@ -11,6 +11,7 @@ $color__white: #FFFFFF;
 $color__black: #000000;
 
 $color__orange: #ff7404;
+$color__orange--light: #ff821e;
 
 $color__blue: #2395d6;
 
@@ -19,6 +20,14 @@ $color__blue-gray--dark: #212a35;
 
 $color__gray--light: #9daeb8;
 $color__gray--dark: #596974;
+
+
+// extendable classes
+.list-reset{
+  margin:0;
+  padding: 0;
+}
+
 
 
 // ## Calculates em size based on required pixel size and context.

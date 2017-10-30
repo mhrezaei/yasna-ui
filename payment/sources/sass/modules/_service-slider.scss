@@ -1,0 +1,44 @@
+/*
+*-------------------------------------------------------
+* Services Slider Styles
+*-------------------------------------------------------
+*/
+
+.service__slide{
+  height: auto;
+  .services__slide--header{
+    @include text($text__size--l,$text__line--l);
+    font-weight: 300;
+  }
+  &.simple{
+    .services__slide--header{
+      text-align: center;
+      margin: 20px auto;
+    }
+    .content{
+      padding: 40px 50px;
+      @media (max-width: 991px) {
+        padding: 20px 30px;
+      }
+      p{
+        color: $color__white !important;
+        font-size: 16px;
+      }
+    }
+    img{
+      max-width: 150px;
+      margin: 20px auto;
+    }
+  }
+
+  &.content-box{
+    .service__card{
+      border:1px solid $color__blue-gray;
+      a.btn{
+        @media (max-width: 991px) {
+          width: 100%;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,75 @@
+/*
+*-------------------------------------------------------
+* Calculator Bar
+*-------------------------------------------------------
+*/
+
+.calculator{
+  padding: 20px 0;
+  box-shadow: 0 0px 14px rgba(0,0,0,0.5);
+  h1{
+    @include text($text__size--m,$text__line--m);
+    font-weight: 500;
+    margin: 0;
+    i{
+    }
+  }
+  .form-group{
+    margin:5px 0;
+    .selecttype{
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      padding: 0 7px;
+      height: 34px;
+      .input-group{
+        width: 100%;
+        height: 100%;
+        input[type=radio]{
+          display: none;
+          &:checked+label{
+            color: $color__orange;
+          }
+        }
+        .radio--custom{
+          display: inline-block;
+          height: 100%;
+          width: 10%;
+          text-align: center;
+        }
+        label{
+          @include text($text__size--m,$text__line--m);
+          color: $color__gray--light;
+          padding: 4px 0 0;
+        }
+        input[type=text]{
+          width: 70%;
+          height:32px;
+          margin:0;
+          &,
+          &:focus{
+            border:0;
+            box-shadow: none;
+          }
+        }
+      }
+    }
+  }
+
+  .result{
+    height: 34px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 6px 12px;
+    color: $color__gray--dark;
+
+    span{
+      font-weight: 500;
+    }
+  }
+  .calculator--btn{
+    height: 34px;
+    width: 100%;
+    margin-bottom: 0;
+    padding:5px 0;
+  }
+}

@@ -1,0 +1,21 @@
+/*
+*-------------------------------------------------------
+* Cards with image and btn
+*-------------------------------------------------------
+*/
+
+.card{
+  border:1px solid #ccc;
+  border-radius: 5px;
+  margin: 15px 0;
+  padding: 20px 15px;
+  text-align: center;
+
+  .card__image{
+    height: 200px;
+    overflow: hidden;
+    img{
+      object-fit: contain;
+    }
+  }
+}

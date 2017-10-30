@@ -34,31 +34,106 @@ body{
   width: 100%;
   position: relative;
   margin-bottom: 16px;
-  padding: 25px 0 0;
+  padding: 25px 0 10px;
   z-index: 5;
+  nav{
+    padding: 0;
+  }
   .header__logo{
-    // header logo div
+    @media(max-width: 424px){
+      width: 90px;
+      margin-top: 8px;
+    }
     .header__logo--link{
-      // header logo a
+      width: 100%;
+      img{
+        width: 100%;
+      }
+      @media(max-width: 424px){
+        width: 90px;
+      }
     }
   }
   @media (max-width: 767px) {
     background: #ff7404;
   }
 }
-.nav{
-
+.xs550{
+  @media(max-width: 549px){
+    width: 100%;
+  }
 }
+/*
+*-------------------------------------------------------
+* Main Banner
+*-------------------------------------------------------
+*/
+
 
 
 .banner{
-  margin-bottom: 90px;
-  background: rgba(255, 116, 4, 0.9) url("../../../public/assets/images/wave.svg") no-repeat center;
+  position: relative;
+  /*background: rgba(255, 116, 4, 0.9) url("../../../public/assets/images/wave.svg") no-repeat center;*/
+  background: linear-gradient(156deg, rgba(255,116,4,0.85) 0%, rgba(198,60,50,0.85) 100%) repeat scroll 0 0;
+  .banner-background{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right:0;
+    bottom: 0;
+    overflow: hidden;
+    img{
+      width: 100%;
+    }
+  }
   .banner__header{
     position: relative;
-    margin: -110px 0 45px;
+    margin: -110px 0 0px;
     padding: 120px 0 0;
     text-align: center;
     height: 600px;
+  }
+}
+
+/*
+*-------------------------------------------------------
+* Services
+*-------------------------------------------------------
+*/
+
+.services{
+  .services-nav{
+    padding: 25px 0;
+    background: $color__blue-gray;
+  }
+  .services-body{
+    background: $color__blue-gray--dark;
+  }
+}
+.logos-row{
+  height: 80px;
+  text-align: center;
+  .logos-row__item{
+    padding: 0 15px;
+    a{
+      display: inline-block;
+      color: $color__gray--dark;
+      text-decoration: none;
+      &:hover{
+        color: $color__white;
+        text-decoration: none;
+        .logos-row__item--name{
+          color: $color__white;
+        }
+      }
+      .logos-row__item--logo{
+        height: 60px;
+        width: auto;
+        @include text($text__size--xl,$text__line--xl);
+      }
+      .logos-row__item--name{
+        @include text($text__size--s,$text__line--s);
+      }
+    }
   }
 }
