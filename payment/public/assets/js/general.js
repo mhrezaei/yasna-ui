@@ -24,6 +24,7 @@ jQuery(function($){
         }
     });
 
+
     // Services Carousel
     $('#service-slider').owlCarousel({
         items: 1,
@@ -35,8 +36,49 @@ jQuery(function($){
         URLhashListener:true,
         startPosition: 'URLHash'
     })
+    loadedSlideHash = $('#service-slider .owl-item.active > .service__slide').data('hash');
 
 }); //End Owl Carousel Setup
+/*
+ *----------------------------------------------------------------------
+ * Logo Bar
+ * ---------------------------------------------------------------------
+ * */
+jQuery(function($){
+
+    var logo = $('.js-logo-select .logos-row__item > a'),
+        triangle = $('.services-nav .nav--arrow'),
+        triangleWidth = triangle.outerWidth(),
+        logoWidth,
+        leftOfTriangle;
+    
+
+
+
+    //adding active class
+    logo.on('click',function () {
+
+       var $this = $(this);
+
+        $('.js-logo-select .active').removeClass('active');
+        $this.addClass('active');
+
+        moveTriangle( $this );
+
+    });
+
+
+
+    //moving the triangle
+    function moveTriangle( currentLogo ) {
+        logoWidth = currentLogo.width();
+        leftOfTriangle = currentLogo.offset().left + logoWidth * 0.5 - triangleWidth * 0.5;
+        triangle.css("left",leftOfTriangle);
+    }
+}); //End Of siaf!
+
+
+
 
 /*
  *----------------------------------------------------------------------
@@ -55,8 +97,4 @@ jQuery(function($){
 
 }); //End Of siaf!
 
-/*
- *----------------------------------------------------------------------
- * Modernizer
- * ---------------------------------------------------------------------
- * */
+

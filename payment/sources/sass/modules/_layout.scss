@@ -106,6 +106,20 @@ body{
   .services-nav{
     padding: 25px 0;
     background: $color__blue-gray;
+    position: relative;
+    .nav--arrow{
+      display: inline-block;
+      position: absolute;
+      background: transparent;
+      width: 0;
+      height: 0;
+      border-left: 20px solid transparent;
+      border-right: 20px solid transparent;
+      border-bottom: 20px solid $color__blue-gray--dark;
+      bottom: 0;
+      left:0;
+    }
+
   }
   .services-body{
     background: $color__blue-gray--dark;
@@ -121,7 +135,14 @@ body{
       display: inline-block;
       color: $color__gray--dark;
       text-decoration: none;
-      &:hover{
+      /*&:hover{
+        color: $color__white;
+        text-decoration: none;
+        .logos-row__item--name{
+          color: $color__white;
+        }
+      }*/
+      &.active{
         color: $color__white;
         text-decoration: none;
         .logos-row__item--name{
@@ -137,5 +158,68 @@ body{
         @include text($text__size--s,$text__line--s);
       }
     }
+  }
+}
+
+/*
+*-------------------------------------------------------
+* Footer
+*-------------------------------------------------------
+*/
+
+footer{
+  padding-top: 50px;
+  padding-bottom: 25px;
+  border-top: 1px solid #ccd6dd;
+  position: relative;
+  z-index: 5;
+  background: #fff;
+  .footer-address-header{
+    color: $color__gray--light;
+    @include text($text__size--m,$text__line--m);
+    font-weight: 300;
+  }
+  .footer-address_item{
+    @include text($text__size--s,$text__line--s);
+    margin: 10px 0;
+  }
+  .footer-link{
+    .footer-link-header{
+      color: $color__gray--light;
+      @include text($text__size--m,$text__line--m);
+      font-weight: 300;
+    }
+    a{
+      display: block;
+      @include text($text__size--s,$text__line--s);
+      margin: 10px 0;
+    }
+  }
+
+  .footer-social{
+    .footer-social__items{
+      @include text($text__size--m,$text__line--m);
+      color: $color__gray--light;
+    }
+  }
+}
+
+/*
+*-------------------------------------------------------
+* Copyright
+*-------------------------------------------------------
+*/
+
+.copyright{
+  border-top: 1px solid #ccd6dd;
+  padding: 20px 0;
+  position: relative;
+  z-index: 5;
+  background: #fff;
+  text-align: center;
+  p,
+  a{
+    color: $color__gray--light;
+    @include text($text__size--s,$text__line--s);
   }
 }
