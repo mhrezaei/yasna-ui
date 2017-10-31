@@ -8,6 +8,32 @@
 .owl-dots{
   display: none;
 }
+
+.banner,
+.services{
+  .owl-nav{
+    display: block;
+    @media(max-width: 768px){
+      display: none;
+    }
+    .owl-prev,
+    .owl-next{
+      position: absolute;
+      top: 50%;
+      @include text($text__size--l,$text__line--l);
+      color: $color__white;
+    }
+    .owl-prev{
+      left:0;
+      padding-left: 30px;
+    }
+    .owl-next{
+      right:0;
+      padding-right: 30px;
+    }
+  }
+}
+
 .slider__item{
   height: 400px;
   display: table;

@@ -54,7 +54,7 @@ body{
       }
     }
   }
-  @media (max-width: 767px) {
+  @media (max-width: 768px) {
     background: #ff7404;
   }
 }
@@ -63,6 +63,7 @@ body{
     width: 100%;
   }
 }
+
 /*
 *-------------------------------------------------------
 * Main Banner
@@ -113,6 +114,7 @@ body{
 .logos-row{
   height: 80px;
   text-align: center;
+  position: relative;
   .logos-row__item{
     padding: 0 15px;
     a{

@@ -37,3 +37,15 @@ $color__gray--dark: #596974;
 @function calc-em($target, $context: $base__font-size) {
   @return ($target / $context) * 1em;
 }
+
+// Mixin
+@mixin clearfix() {
+  &:before,
+  &:after {
+    content: " ";
+    display: table;
+  }
+  &:after {
+    clear: both;
+  }
+}
