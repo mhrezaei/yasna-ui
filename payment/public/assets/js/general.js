@@ -3,10 +3,33 @@
 * Owl Carousel Setup
 * ---------------------------------------------------------------------
 * */
+
 jQuery(function($){
 
+    var headerSlider = $('#header-slider'),
+        serviceSlider = $('#service-slider'),
+        logo = $('.js-logo-select .logos-row__item > a'),
+        triangle = $('.services-nav .nav--arrow'),
+        triangleWidth = triangle.outerWidth(),
+        logoWidth,
+        leftOfTriangle,
+        options = {
+            items: 1,
+            nav:true,
+            navText: ['<i class="fa fa-chevron-left" aria-hidden="true"></i>','<i class="fa fa-chevron-right" aria-hidden="true"></i>'],
+            loop: true,
+            rtl: true,
+            center:true,
+            URLhashListener:true,
+            startPosition: 'URLHash'
+        };
+
+
+
+
+
     // Banner Carousel
-    $('#header-slider').owlCarousel({
+    headerSlider.owlCarousel({
         nav:true,
         navText: ['<i class="fa fa-chevron-left" aria-hidden="true"></i>','<i class="fa fa-chevron-right" aria-hidden="true"></i>'],
         loop: true,
@@ -24,50 +47,63 @@ jQuery(function($){
         }
     });
 
-
-    // Services Carousel
-    $('#service-slider').owlCarousel({
-        items: 1,
-        nav:true,
-        navText: ['<i class="fa fa-chevron-left" aria-hidden="true"></i>','<i class="fa fa-chevron-right" aria-hidden="true"></i>'],
-        loop: true,
-        rtl: true,
-        center:true,
-        URLhashListener:true,
-        startPosition: 'URLHash'
-    })
-    loadedSlideHash = $('#service-slider .owl-item.active > .service__slide').data('hash');
-
-}); //End Owl Carousel Setup
-/*
- *----------------------------------------------------------------------
- * Logo Bar
- * ---------------------------------------------------------------------
- * */
-jQuery(function($){
-
-    var logo = $('.js-logo-select .logos-row__item > a'),
-        triangle = $('.services-nav .nav--arrow'),
-        triangleWidth = triangle.outerWidth(),
-        logoWidth,
-        leftOfTriangle;
-    
-
-
-
-    //adding active class
-    logo.on('click',function () {
-
-       var $this = $(this);
-
-        $('.js-logo-select .active').removeClass('active');
-        $this.addClass('active');
-
-        moveTriangle( $this );
-
+    $(window).on('load', function () {
+        var windowWidth = $(window).outerWidth();
+        console.log(windowWidth);
+        if(windowWidth > 800){
+            // Services Carousel
+            $('.services').removeClass('mobile');
+            serviceSlider.owlCarousel(options);
+        }else{
+            $('.services').addClass('mobile');
+            serviceSlider.removeClass('owl-carousel')
+        }
     });
 
 
+
+
+
+    /*
+     *----------------------------------------------------------------------
+     * Logo Bar
+     * ---------------------------------------------------------------------
+     * */
+
+    $(document).ready(function () {
+        currentSlideFinder(serviceSlider);
+    });
+
+    serviceSlider.on('translated.owl.carousel', function () {
+        var $this = $(this);
+        currentSlideFinder($this);
+    });
+
+    if(triangle.length){
+        $(window).on('resize',function () {
+            moveTriangle($('.js-logo-select .active'));
+        });
+    }
+
+
+
+    //Finds Current slide and its related logo. Activates the Logo.
+    function currentSlideFinder(slider) {
+        var activeSlide = slider.find('.owl-item.active '),
+            hash = activeSlide.children('.service__slide').data('hash'),
+            relatedLogo = $('.js-logo-select  a[href$="#'+ hash +'"]');
+        //Activates the related logo
+        logoActivate(relatedLogo);
+    }
+
+
+    //Add active class
+    function logoActivate(currentLogo) {
+
+        $('.js-logo-select .active').removeClass('active');
+        currentLogo.addClass('active');
+        moveTriangle( currentLogo );
+    }
 
     //moving the triangle
     function moveTriangle( currentLogo ) {
@@ -75,7 +111,9 @@ jQuery(function($){
         leftOfTriangle = currentLogo.offset().left + logoWidth * 0.5 - triangleWidth * 0.5;
         triangle.css("left",leftOfTriangle);
     }
-}); //End Of siaf!
+
+}); //End Owl Carousel Setup
+
 
 
 
