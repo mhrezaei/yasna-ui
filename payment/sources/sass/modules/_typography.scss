@@ -20,11 +20,6 @@ $text__line--m: 28 !default;
 $text__line--s: 19 !default;
 $text__line--xs: 16 !default;
 
-/*$text__colour--base: #fff !default;
-$text__colour--alpha: #ff7404 !default;
-$text__colour--beta: #2395d6 !default;
-$text__colour--gamma: #3e4956 !default;*/
-
 
 
 @mixin text($size, $line, $margin: 0, $family: $text__family-sans) {

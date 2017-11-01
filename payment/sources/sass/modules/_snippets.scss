@@ -1,0 +1,62 @@
+/*
+*-------------------------------------------------------
+* Snippents
+*-------------------------------------------------------
+*/
+.details{
+  @include text($text__size--s,$text__line--s);
+  color: $color__gray--light;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+
+.snippets{
+  .snippet-list{
+    @extend .list-reset;
+    .snippet-list__item{
+      margin-bottom: 65px;
+      padding-bottom: 30px;
+      border-bottom: 1px solid #ccd6dd;
+      &:last-child{
+        border-bottom: none;
+      }
+      .avatar{
+        float: right;
+        border-radius: 50%;
+        @media (max-width: 767px) {
+          display: none;
+        }
+      }
+      .avatar--55{
+        width: 55px;
+        height:55px;
+      }
+
+      .content{
+        padding-right: 85px;
+        @media (max-width: 767px) {
+          padding-right: 0;
+        }
+        h2{
+          @include text($text__size--m,$text__line--m);
+          font-weight: 500;
+          margin-bottom: 10px;
+          a{
+            color: $color__blue-gray;
+          }
+        }
+        p{
+          font-size: 1.1em;
+          line-height: 1.7em;
+          font-weight: 400;
+          a{
+            font-size: 1.1em;
+            line-height: 1.7em;
+            font-weight: 400;
+          }
+        }
+      }
+    }
+
+  }
+}

@@ -1,0 +1,42 @@
+/*
+*-------------------------------------------------------
+* Categories Nav Bar
+*-------------------------------------------------------
+*/
+
+.categories-nav{
+  margin-bottom: 30px;
+  .container{
+    position: relative;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccd6dd;
+  }
+  .menu-top{
+    margin:6px 0;
+    .menu-top__item{
+      a{
+        @include text($text__size--s,$text__line--s);
+        color: $color__gray--light;
+      }
+      &.menu-top__item--current{
+        a{
+          color: $color__blue;
+        }
+      }
+    }
+  }
+
+  .categories-search{
+    position: relative;
+    input{
+      padding-left: 40px;
+    }
+    label{
+      position: absolute;
+      left: 10px;
+      top: 8px;
+      color: $color__gray--light;
+    }
+  }
+}

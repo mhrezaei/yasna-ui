@@ -1,0 +1,19 @@
+/*
+*-------------------------------------------------------
+* Single page heading style
+*-------------------------------------------------------
+*/
+
+.banner-heading{
+  display: table;
+  width: 100%;
+  height: 100%;
+  .banner-heading-inner{
+    display: table-cell;
+    vertical-align: middle;
+    h1,p{
+      color: $color__white;
+    }
+
+  }
+}
