@@ -1,0 +1,15 @@
+/*
+*-------------------------------------------------------
+* Page navigations
+*-------------------------------------------------------
+*/
+
+.page-navigation{
+  margin: 40px auto 60px;
+  .page-navigation--home{
+    float: left;
+    a{
+      @include text($text__size--m,$text__line--m);
+    }
+  }
+}

@@ -1,0 +1,53 @@
+/*
+*-------------------------------------------------------
+* Article Header
+*-------------------------------------------------------
+*/
+
+.article-details{
+  margin-bottom: 60px;
+  border-bottom: 1px solid #ccd6dd;
+  .container{
+    padding-top: 20px;
+    padding-bottom: 10px;
+  }
+  .avatar{
+    float: right;
+    margin-left: 12px;
+    margin-top: -10px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+  .article-share{
+    //text-align: left;
+    .a2a_kit{
+      display: inline-block;
+    }
+  }
+}
+@media (max-width: 550px) {
+  .article-details{
+    text-align: center !important;
+    .avatar{
+      display: block;
+      margin: -10px auto 10px;
+      float: none;
+    }
+    .details{
+      display: block;
+    }
+  }
+}
+
+/*
+*-------------------------------------------------------
+* Article body
+*-------------------------------------------------------
+*/
+
+article{
+  h1,h2,h3,h4,h5,h6{
+    color: $color__black;
+  }
+}

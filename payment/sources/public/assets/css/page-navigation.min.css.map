@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAMA,gBAAgB,CACd,MAAM,CAAE,cAAc",
+"sources": ["../../../sass/modules/page-navigation.scss"],
+"names": [],
+"file": "page-navigation.min.css"
+}
