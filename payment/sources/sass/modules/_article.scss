@@ -20,9 +20,12 @@
     border-radius: 50%;
   }
   .article-share{
-    //text-align: left;
+    text-align: left;
     .a2a_kit{
       display: inline-block;
+    }
+    .a2a_label{
+      display: none;
     }
   }
 }
@@ -36,6 +39,9 @@
     }
     .details{
       display: block;
+    }
+    .article-share{
+      text-align: center;
     }
   }
 }
