@@ -111,6 +111,10 @@ body{
 */
 
 .services{
+  display: block;
+  @media (max-width: 800px) {
+    display: none;
+  }
   .services-nav{
     padding: 25px 0;
     background: $color__blue-gray;

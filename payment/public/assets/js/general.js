@@ -47,23 +47,11 @@ jQuery(function($){
         }
     });
 
-    $(window).on('load', function () {
-        var windowWidth = $(window).outerWidth();
-        console.log(windowWidth);
-        if(windowWidth > 800){
-            // Services Carousel
-            $('.services').removeClass('mobile');
-            serviceSlider.owlCarousel(options);
-        }else{
-            $('.services').addClass('mobile');
-            serviceSlider.removeClass('owl-carousel')
-        }
-    });
+
+    serviceSlider.owlCarousel(options);
 
 
-
-
-
+    
     /*
      *----------------------------------------------------------------------
      * Logo Bar

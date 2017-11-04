@@ -1,0 +1,71 @@
+/*
+*-------------------------------------------------------
+* Service section accordion
+*-------------------------------------------------------
+*/
+
+.services--tablet{
+  display: none;
+  @media (max-width: 800px) {
+    display: block;
+  }
+
+  .panel-group{
+    .panel{
+      border:none;
+      box-shadow: none;
+      margin-top: 0;
+    }
+  }
+  .panel-heading{
+    background-color: $color__blue-gray;
+    border-radius: 0;
+    padding: 15px 0;
+    padding-right: 20px;
+    border-bottom: 1px solid $color__gray--dark;
+    a{
+      color: $color__gray--light;
+      @include text($text__size--m,$text__line--m);
+      font-weight: 500;
+      text-decoration: none;
+      i{
+        //@include text($text__size--l,$text__line--l);
+        font-size: 30px;
+        vertical-align: bottom;
+        padding-left: 10px;
+      }
+    }
+  }
+
+  .panel-body{
+    background-color: $color__blue-gray--dark;
+    border:none !important;
+    padding: 20px 0;
+    h2{
+      font-weight: 300;
+      margin-top: 10px;
+    }
+    p{
+      color: $color__white;
+      font-weight: 300;
+    }
+  }
+  .simple{
+    img{
+      @media(max-width:767px){
+        display: block;
+        max-height: 150px;
+        margin: 10px auto;
+      }
+    }
+  }
+
+  .content-box{
+    a.btn{
+      @media (max-width: 991px) {
+        width: 100%;
+      }
+    }
+  }
+
+}
