@@ -51,7 +51,7 @@ jQuery(function($){
     serviceSlider.owlCarousel(options);
 
 
-    
+
     /*
      *----------------------------------------------------------------------
      * Logo Bar
