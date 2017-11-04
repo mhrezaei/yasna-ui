@@ -6,6 +6,18 @@
 
 .page-navigation{
   margin: 40px auto 60px;
+  nav{
+    text-align: center;
+    .pagination{
+      .active > a{
+        background-color: $color__blue;
+        border-color: $color__blue;
+      }
+    }
+    a{
+      color: $color__blue;
+    }
+  }
   .page-navigation--home{
     float: left;
     a{
