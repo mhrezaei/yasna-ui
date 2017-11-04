@@ -63,7 +63,7 @@ h3 {
 }
 
 p {
-  @include text($text__size--m, $text__line--m, 20);
+  @include text($text__size--m, $text__line--m, 2);
   color: $color__gray--dark;
 }
 

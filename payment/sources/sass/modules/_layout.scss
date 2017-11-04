@@ -207,7 +207,7 @@ footer{
 
   .footer-social{
     .footer-social__items{
-      @include text($text__size--m,$text__line--m);
+      @include text($text__size--l,$text__line--l);
       color: $color__gray--light;
     }
   }

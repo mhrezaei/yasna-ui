@@ -39,13 +39,13 @@
         }
         h2{
           @include text($text__size--m,$text__line--m);
-          font-weight: 500;
+          font-weight: 600;
           margin-bottom: 10px;
           a{
             color: $color__blue-gray;
           }
         }
-        p{
+        /*p{
           font-size: 1.1em;
           line-height: 1.7em;
           font-weight: 400;
@@ -54,7 +54,7 @@
             line-height: 1.7em;
             font-weight: 400;
           }
-        }
+        }*/
       }
     }
 
