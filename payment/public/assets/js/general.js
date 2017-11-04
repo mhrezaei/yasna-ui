@@ -126,13 +126,65 @@ jQuery(function($){
 jQuery(function($){
 
     var ToggleBTN = $('.header .js-hamburger-btn'),
-        nav = $('.header .js-hamburger-nav');
+        nav = $('.header .js-hamburger-nav'),
+        navOpen = false;
+
 
     ToggleBTN.on('click',function (e) {
         e.preventDefault();
-        nav.slideToggle();
-    })
+        if(navOpen){
+            nav.slideUp(function () {
+                nav.removeAttr('style');
+            });
+            navOpen = !navOpen;
+        }else{
+            nav.slideDown();
+            navOpen = !navOpen;
+        }
+    });
+
 
 }); //End Of siaf!
 
 
+/*
+ *----------------------------------------------------------------------
+ * Fixed Nabvar
+ * ---------------------------------------------------------------------
+ * */
+
+jQuery(function($){
+
+    var header = $('#fixed-header'),
+        $window = $(window),
+        headerHeight = header.outerHeight();
+
+    function toggleNavbar(){
+        var headerFixed = header.hasClass('header-fixed'),
+            scroll = $(document).scrollTop();
+
+
+        if(scroll > headerHeight){
+
+            if(!headerFixed){
+                header.addClass('header-fixed');
+                header.css('margin-top', -headerHeight);
+                header.animate({marginTop:0}, 500, function(){
+                    $window.one('scroll',toggleNavbar);
+                });
+            }else{
+                $window.one('scroll',toggleNavbar);
+            }
+
+        }else{
+
+            if(headerFixed){
+                header.removeClass('header-fixed');
+            }
+            $window.one('scroll',toggleNavbar);
+        }
+    }
+
+    $window.one('scroll',toggleNavbar());
+
+}); //End Of siaf!

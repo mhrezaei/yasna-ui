@@ -3,7 +3,14 @@
 * Header styles
 *-------------------------------------------------------
 */
-
+.header-fixed{
+  position: fixed;
+  right: 0;
+  left: 0;
+  top: 0;
+  background: rgb(227, 111, 66);
+  padding-top: 15px;
+}
 .nav-list{
   @extend .list-reset;
   display: inline-block;
@@ -73,7 +80,7 @@ header {
     left: 0;
     top: 100%;
     border-top: 1px solid rgba(255, 255, 255, 0.18);
-    background: #ff7404;
+    background: rgb(227, 111, 66);;
     box-shadow: 0 4px 7px rgba(0, 0, 0, 0.05);
     .nav-list__item{
       text-align: center;
