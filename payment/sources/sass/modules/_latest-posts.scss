@@ -7,18 +7,11 @@
 .latest-posts{
   padding: 60px 0;
   .latest-posts-box{
-    position: relative;
     border: 1px solid #e0e3e6;
-    //padding: 20px 10px;
-    @media (max-width: 991px) {
-      margin-bottom: 20px;
-    }
+    margin-bottom: 20px;
+
     header{
-      position: absolute;
-      top:0;
-      left:0;
-      right:0;
-      height: 70px;
+      height: 58px;
       background: -moz-linear-gradient(156deg, #654ca0 0%, #2395d6 100%) repeat scroll 0 0;
       background: -webkit-linear-gradient(156deg, #654ca0 0%, #2395d6 100%) repeat scroll 0 0;
       background: -ms-linear-gradient(156deg, #654ca0 0%, #2395d6 100%) repeat scroll 0 0;
@@ -26,13 +19,13 @@
       h1{
         text-align: center;
         color: $color__white;
-        @include text($text__size--l,70);
+        font-size: 1.7em;
+        line-height: 58px;
         margin:0;
       }
     }
     .latest-news{
       @extend .list-reset;
-      margin-top: 70px;
       .latest-news__item{
         border-bottom: 1px solid #ebeef1;
         padding: 25px 15px;
@@ -60,8 +53,24 @@
         }
       }
     }
-    footer{
-      border: none;
+    .more{
+      padding: 10px 20px 20px;
+      text-align: left;
+      font-weight: 500;
     }
+    .dots{
+      height: 20px;
+    }
+  }
+}
+
+.js-comments-slider{
+  height: 200px;
+  overflow: hidden;
+  .latest-news__item:hover{
+    background-color: unset !important;
+  }
+  .owl-dots{
+    display: block;
   }
 }

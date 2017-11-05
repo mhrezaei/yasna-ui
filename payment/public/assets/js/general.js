@@ -8,6 +8,7 @@ jQuery(function($){
 
     var headerSlider = $('#header-slider'),
         serviceSlider = $('#service-slider'),
+        commentsSlider = $('.js-comments-slider'),
         logo = $('.js-logo-select .logos-row__item > a'),
         triangle = $('.services-nav .nav--arrow'),
         triangleWidth = triangle.outerWidth(),
@@ -47,9 +48,20 @@ jQuery(function($){
         }
     });
 
-
+    //Services Slider
     serviceSlider.owlCarousel(options);
 
+
+    //Comments Slider
+    commentsSlider.owlCarousel({
+       items:1,
+       nav:false,
+       loop:true,
+       rtl:true,
+        autoplay:true,
+        autoplayTimeout:2000,
+        autoplayHoverPause:true
+    });
 
 
     /*

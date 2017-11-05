@@ -116,7 +116,7 @@ body{
     display: none;
   }
   .services-nav{
-    padding: 25px 0;
+    padding: 15px 0;
     background: $color__blue-gray;
     position: relative;
     .nav--arrow{
@@ -147,13 +147,6 @@ body{
       display: inline-block;
       color: $color__gray--dark;
       text-decoration: none;
-      /*&:hover{
-        color: $color__white;
-        text-decoration: none;
-        .logos-row__item--name{
-          color: $color__white;
-        }
-      }*/
       &.active{
         color: $color__white;
         text-decoration: none;
