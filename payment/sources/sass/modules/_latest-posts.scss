@@ -1,0 +1,67 @@
+/*
+*-------------------------------------------------------
+* Latest post (news and new blog posts)
+*-------------------------------------------------------
+*/
+
+.latest-posts{
+  padding: 60px 0;
+  .latest-posts-box{
+    position: relative;
+    border: 1px solid #e0e3e6;
+    //padding: 20px 10px;
+    @media (max-width: 991px) {
+      margin-bottom: 20px;
+    }
+    header{
+      position: absolute;
+      top:0;
+      left:0;
+      right:0;
+      height: 70px;
+      background: -moz-linear-gradient(156deg, #654ca0 0%, #2395d6 100%) repeat scroll 0 0;
+      background: -webkit-linear-gradient(156deg, #654ca0 0%, #2395d6 100%) repeat scroll 0 0;
+      background: -ms-linear-gradient(156deg, #654ca0 0%, #2395d6 100%) repeat scroll 0 0;
+      background: linear-gradient(156deg, #654ca0 0%, #2395d6 100%) repeat scroll 0 0;
+      h1{
+        text-align: center;
+        color: $color__white;
+        @include text($text__size--l,70);
+        margin:0;
+      }
+    }
+    .latest-news{
+      @extend .list-reset;
+      margin-top: 70px;
+      .latest-news__item{
+        border-bottom: 1px solid #ebeef1;
+        padding: 25px 15px;
+        a{
+          text-decoration: none;
+        }
+        &:last-child{
+          border-bottom: none;
+        }
+        &:hover{
+          background-color: #ebeef1;
+        }
+        .date{
+          @include text($text__size--xs,$text__line--xs);
+          color: $color__gray--light;
+        }
+        h2{
+          @include text($text__size--m,$text__line--m);
+          color: $color__blue;
+          margin: 5px 0 10px;
+        }
+        p{
+          @include text($text__size--s,$text__line--s);
+          color: $color__gray--dark;
+        }
+      }
+    }
+    footer{
+      border: none;
+    }
+  }
+}
