@@ -19,18 +19,40 @@
       <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/login.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="690">
-              <caret line="97" column="43" lean-forward="false" selection-start-line="97" selection-start-column="43" selection-end-line="97" selection-end-column="43" />
+            <state relative-caret-position="338">
+              <caret line="55" column="41" lean-forward="true" selection-start-line="55" selection-start-column="36" selection-end-line="55" selection-end-column="46" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login-form.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="_login.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sources/sass/modules/_login.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="326">
+              <caret line="92" column="18" lean-forward="false" selection-start-line="92" selection-start-column="18" selection-end-line="92" selection-end-column="18" />
+              <folding>
+                <element signature="e#2663#2775#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_input.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sources/sass/modules/_input.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="586">
+              <caret line="93" column="14" lean-forward="false" selection-start-line="93" selection-start-column="4" selection-end-line="93" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login-form.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/assets/js/login-form.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="416">
-              <caret line="16" column="34" lean-forward="true" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
+            <state relative-caret-position="872">
+              <caret line="58" column="8" lean-forward="false" selection-start-line="58" selection-start-column="8" selection-end-line="58" selection-end-column="8" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -92,10 +114,10 @@
         <option value="$PROJECT_DIR$/sources/sass/modules/_login.js" />
         <option value="$PROJECT_DIR$/sources/sass/modules/_btn.scss" />
         <option value="$PROJECT_DIR$/sources/sass/login-style.scss" />
-        <option value="$PROJECT_DIR$/sources/sass/modules/_input.scss" />
-        <option value="$PROJECT_DIR$/sources/sass/modules/_login.scss" />
         <option value="$PROJECT_DIR$/login.html" />
         <option value="$PROJECT_DIR$/public/assets/js/login-form.js" />
+        <option value="$PROJECT_DIR$/sources/sass/modules/_input.scss" />
+        <option value="$PROJECT_DIR$/sources/sass/modules/_login.scss" />
       </list>
     </option>
   </component>
@@ -249,7 +271,7 @@
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Ignored.Files" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
-    <property name="SearchEverywhereHistoryKey" value="gene&#9;FILE&#9;file://C:/xampp/htdocs/yasna-ui/payment/public/assets/js/general.js&#10;lo&#9;FILE&#9;file://C:/xampp/htdocs/yasna-ui/payment/sources/sass/login-style.scss&#10;scr&#9;FILE&#9;file://C:/xampp/htdocs/yasna-ui/payment/sources/sass/screen.scss&#10;ذفد&#9;FILE&#9;file://C:/xampp/htdocs/yasna-ui/payment/sources/sass/modules/_btn.scss&#10;ذف&#9;FILE&#9;file://C:/xampp/htdocs/yasna-ui/payment/sources/sass/modules/_btn.scss&#10;ذ&#9;FILE&#9;file://C:/xampp/htdocs/yasna-ui/payment/sources/sass/modules/_btn.scss&#10;bas&#9;FILE&#9;file://C:/xampp/htdocs/yasna-ui/payment/sources/sass/_base.scss&#10;lay&#9;FILE&#9;file://C:/xampp/htdocs/yasna-ui/payment/sources/sass/modules/_layout.scss&#10;sc&#9;FILE&#9;file://C:/xampp/htdocs/yasna-ui/payment/sources/sass/screen.scss&#10;ac&#9;FILE&#9;file://C:/xampp/htdocs/yasna-ui/payment/sources/sass/modules/_service-accordion.scss&#10;cal&#9;FILE&#9;file://C:/xampp/htdocs/yasna-ui/payment/sources/sass/modules/_calculator.scss&#10;la&#9;FILE&#9;file://C:/xampp/htdocs/yasna-ui/payment/sources/sass/modules/_layout.scss&#10;gen&#9;FILE&#9;file://C:/xampp/htdocs/yasna-ui/payment/public/assets/js/general.js&#10;typo&#9;FILE&#9;file://C:/xampp/htdocs/yasna-ui/payment/sources/sass/modules/_typography.scss&#10;scree&#9;FILE&#9;file://C:/xampp/htdocs/yasna-ui/payment/sources/sass/screen.scss&#10;he&#9;FILE&#9;file://C:/xampp/htdocs/yasna-ui/payment/sources/sass/modules/_header.scss&#10;ty&#9;FILE&#9;file://C:/xampp/htdocs/yasna-ui/payment/sources/sass/modules/_typography.scss&#10;sni&#9;FILE&#9;file://C:/xampp/htdocs/yasna-ui/payment/sources/sass/modules/_snippets.scss&#10;_ty&#9;FILE&#9;file://C:/xampp/htdocs/yasna-ui/payment/sources/sass/modules/_typography.scss&#10;_a&#9;FILE&#9;file://C:/xampp/htdocs/yasna-ui/payment/sources/sass/modules/_article-header.scss&#10;ba&#9;FILE&#9;file://C:/xampp/htdocs/yasna-ui/payment/sources/sass/_base.scss&#10;سز&#9;FILE&#9;file://C:/xampp/htdocs/yasna-ui/payment/sources/sass/screen.scss&#10;base&#9;FILE&#9;file://C:/xampp/htdocs/yasna-ui/payment/sources/sass/_base.scss&#10;screen&#9;FILE&#9;file://C:/xampp/htdocs/yasna-ui/payment/sources/sass/screen.scss&#10;ge&#9;FILE&#9;file://C:/xampp/htdocs/yasna-ui/payment/public/assets/js/general.js&#10;مهس&#9;FILE&#9;file://C:/xampp/htdocs/yasna-ui/payment/sources/sass/modules/_lists.scss&#10;bt&#9;FILE&#9;file://C:/xampp/htdocs/yasna-ui/payment/sources/sass/modules/_btn.scss" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/xampp/htdocs/yasna-ui/payment/sources/sass/modules/_input.scss&#10;login&#9;FILE&#9;file://C:/xampp/htdocs/yasna-ui/payment/sources/sass/modules/_login.scss&#10;gene&#9;FILE&#9;file://C:/xampp/htdocs/yasna-ui/payment/public/assets/js/general.js&#10;lo&#9;FILE&#9;file://C:/xampp/htdocs/yasna-ui/payment/sources/sass/login-style.scss&#10;scr&#9;FILE&#9;file://C:/xampp/htdocs/yasna-ui/payment/sources/sass/screen.scss&#10;ذفد&#9;FILE&#9;file://C:/xampp/htdocs/yasna-ui/payment/sources/sass/modules/_btn.scss&#10;ذف&#9;FILE&#9;file://C:/xampp/htdocs/yasna-ui/payment/sources/sass/modules/_btn.scss&#10;ذ&#9;FILE&#9;file://C:/xampp/htdocs/yasna-ui/payment/sources/sass/modules/_btn.scss&#10;bas&#9;FILE&#9;file://C:/xampp/htdocs/yasna-ui/payment/sources/sass/_base.scss&#10;lay&#9;FILE&#9;file://C:/xampp/htdocs/yasna-ui/payment/sources/sass/modules/_layout.scss&#10;sc&#9;FILE&#9;file://C:/xampp/htdocs/yasna-ui/payment/sources/sass/screen.scss&#10;ac&#9;FILE&#9;file://C:/xampp/htdocs/yasna-ui/payment/sources/sass/modules/_service-accordion.scss&#10;cal&#9;FILE&#9;file://C:/xampp/htdocs/yasna-ui/payment/sources/sass/modules/_calculator.scss&#10;la&#9;FILE&#9;file://C:/xampp/htdocs/yasna-ui/payment/sources/sass/modules/_layout.scss&#10;gen&#9;FILE&#9;file://C:/xampp/htdocs/yasna-ui/payment/public/assets/js/general.js&#10;typo&#9;FILE&#9;file://C:/xampp/htdocs/yasna-ui/payment/sources/sass/modules/_typography.scss&#10;scree&#9;FILE&#9;file://C:/xampp/htdocs/yasna-ui/payment/sources/sass/screen.scss&#10;he&#9;FILE&#9;file://C:/xampp/htdocs/yasna-ui/payment/sources/sass/modules/_header.scss&#10;ty&#9;FILE&#9;file://C:/xampp/htdocs/yasna-ui/payment/sources/sass/modules/_typography.scss&#10;sni&#9;FILE&#9;file://C:/xampp/htdocs/yasna-ui/payment/sources/sass/modules/_snippets.scss&#10;_ty&#9;FILE&#9;file://C:/xampp/htdocs/yasna-ui/payment/sources/sass/modules/_typography.scss&#10;_a&#9;FILE&#9;file://C:/xampp/htdocs/yasna-ui/payment/sources/sass/modules/_article-header.scss&#10;ba&#9;FILE&#9;file://C:/xampp/htdocs/yasna-ui/payment/sources/sass/_base.scss&#10;سز&#9;FILE&#9;file://C:/xampp/htdocs/yasna-ui/payment/sources/sass/screen.scss&#10;base&#9;FILE&#9;file://C:/xampp/htdocs/yasna-ui/payment/sources/sass/_base.scss&#10;screen&#9;FILE&#9;file://C:/xampp/htdocs/yasna-ui/payment/sources/sass/screen.scss&#10;ge&#9;FILE&#9;file://C:/xampp/htdocs/yasna-ui/payment/public/assets/js/general.js&#10;مهس&#9;FILE&#9;file://C:/xampp/htdocs/yasna-ui/payment/sources/sass/modules/_lists.scss&#10;bt&#9;FILE&#9;file://C:/xampp/htdocs/yasna-ui/payment/sources/sass/modules/_btn.scss" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -370,12 +392,12 @@
       <workItem from="1509860889399" duration="12202000" />
       <workItem from="1509880565053" duration="75000" />
       <workItem from="1509947608665" duration="438000" />
-      <workItem from="1509948058288" duration="23875000" />
+      <workItem from="1509948058288" duration="28952000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="163564000" />
+    <option name="totallyTimeSpent" value="168641000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -864,26 +886,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sources/sass/modules/_input.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="93" column="0" lean-forward="true" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
-          <folding>
-            <element signature="e#654#691#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sources/sass/modules/_login.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="768">
-          <caret line="70" column="32" lean-forward="false" selection-start-line="70" selection-start-column="32" selection-end-line="70" selection-end-column="32" />
-          <folding>
-            <element signature="e#2644#2756#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/assets/js/general.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -896,18 +898,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/login.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="97" column="43" lean-forward="false" selection-start-line="97" selection-start-column="43" selection-end-line="97" selection-end-column="43" />
+        <state relative-caret-position="338">
+          <caret line="55" column="41" lean-forward="true" selection-start-line="55" selection-start-column="36" selection-end-line="55" selection-end-column="46" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/assets/js/login-form.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="16" column="34" lean-forward="true" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
+        <state relative-caret-position="872">
+          <caret line="58" column="8" lean-forward="false" selection-start-line="58" selection-start-column="8" selection-end-line="58" selection-end-column="8" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sources/sass/modules/_input.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="586">
+          <caret line="93" column="14" lean-forward="false" selection-start-line="93" selection-start-column="4" selection-end-line="93" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sources/sass/modules/_login.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="92" column="18" lean-forward="false" selection-start-line="92" selection-start-column="18" selection-end-line="92" selection-end-column="18" />
+          <folding>
+            <element signature="e#2663#2775#0" expanded="false" />
           </folding>
         </state>
       </provider>

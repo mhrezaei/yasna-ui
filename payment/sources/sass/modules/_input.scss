@@ -35,6 +35,15 @@
 
     }
   }
+
+  // class for filled inputs
+  .form-input--filled{
+    &+.form-input-label{
+      color: $color__orange;
+      top: -20px;
+    }
+  }
+
   .form-input-label{
     position: absolute;
     top: 15px;
@@ -70,6 +79,7 @@
   }
   //massage container of inputs
   .form-input-massage{
+    display: none;
     margin-top: 5px;
     margin-bottom: 0;
     @include text($text__size--xs,$text__line--xs);
@@ -90,6 +100,7 @@
       }
     }
     .form-input-massage{
+      display: block;
       color: #c63c32 !important;
 
     }

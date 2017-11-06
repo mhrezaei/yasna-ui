@@ -73,7 +73,7 @@ html,body,.wrapper{
     }
   }
   .login-tabs-underline{
-    position: relative;
+    position: absolute;
     width: 50%;
     height: 3px;
     -webkit-transition: left .5s cubic-bezier(.23,1,.32,1);
@@ -90,6 +90,7 @@ html,body,.wrapper{
     }
   }
   .form-alert {
+    display: none;
     position: relative;
     width: 100%;
     margin-bottom: 30px;
