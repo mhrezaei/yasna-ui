@@ -39,6 +39,9 @@
     width: 230px;
     padding:15px 0 !important;
   }
+  &.medium{
+    padding:15px 0 !important;
+  }
   &.clear{
     background-color: transparent;
     color: #fff;
@@ -46,6 +49,13 @@
     padding-top: 9px;
     padding-bottom: 9px;
     border: 1px solid #fff;
+  }
+  &[disabled]{
+    background: #e2e2e2 !important;
+    color: #aab7c8 !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    cursor: not-allowed;
   }
 }
 

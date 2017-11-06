@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <title>Payment</title>
+
+    <!-- Bootstrap css -->
+    <link rel="stylesheet" href="public/assets/libs/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="public/assets/libs/bootstrap/css/bootstrap.rtl.min.css">
+
+    <!-- Fonts -->
+    <link rel="stylesheet" href="public/assets/css/fontiran.css">
+    <link rel="stylesheet" href="public/assets/libs/fontawesome/css/font-awesome.min.css">
+
+    <!-- Owl Carousel -->
+    <link rel="stylesheet" href="public/assets/libs/owlcarousel/owl.carousel.css">
+    <link rel="stylesheet" href="public/assets/libs/owlcarousel/owl.theme.default.css">
+
+    <!-- Custom styles -->
+    <link rel="stylesheet" href="public/assets/css/login-style.min.css">
+
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+
+<!-- Site Wrapper -->
+<div class="wrapper">
+    <section class="login">
+        <h1>
+            <a href="index.html">
+                <img src="public/assets/images/logo.svg" alt="logo">
+            </a>
+        </h1>
+        <div class="inner-container">
+            <div class="login-box">
+                <div class="login-box-container">
+                    <div class="login-tabs-container">
+                        <ul class="login-tabs js-tabs-control">
+                            <li class="login-tabs__tab active">
+                                <a href="/login">ورود</a>
+                            </li>
+                            <li class="login-tabs__tab">
+                                <a href="/register">عضویت</a>
+                            </li>
+                        </ul>
+                        <div class="login-tabs-underline"></div>
+                    </div>
+                </div>
+                <div class="login-content">
+                    <form action="/login">
+                        <div class="form-input">
+                            <input type="email" class="" id="email" name="email" value="" autocomplete="off">
+                            <label for="email" class="form-input-label">آدرس ایمیل</label>
+                            <div class="form-input-underline"></div>
+                            <label for="email" class="form-input-massage">ایمیل خود را وارد کنید.</label>
+                        </div>
+                        <div class="form-input">
+                            <input type="password" class="" id="password" name="password" value="" autocomplete="off">
+                            <label for="password" class="form-input-label">رمز عبور</label>
+                            <div class="form-input-underline"></div>
+                            <button class="password-toggle js-toggle-visibility">
+                                <i class="fa fa-eye" aria-hidden="true"></i>
+                            </button>
+                        </div>
+                        <div class="form-alert danger">
+                            <span>اطلاعات وارد شده نامعتبر می باشد.</span>
+                        </div>
+                        <div class="form-submit">
+                            <button class="btn secondary" type="submit" disabled>ورود</button>
+                        </div>
+                    </form>
+                    <div class="pass-recovery">
+                        <a href="#">رمز عبور را فراموش کرده‌اید؟</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+<!-- !END Site Wrapper -->
+
+<!-- End-body Scripts -->
+<!-- Modernizer -->
+<script src="public/assets/libs/modernizr/modernizr.custom.js"></script>
+<!-- jQuery -->
+<script src="public/assets/libs/jquery/jquery.min.js"></script>
+<!-- Bootstrap js -->
+<script src="public/assets/libs/bootstrap/js/bootstrap.min.js"></script>
+<!-- Owl Carousel -->
+<script src="public/assets/libs/owlcarousel/owl.carousel.min.js"></script>
+
+<!-- Custom js -->
+<script src="public/assets/js/login-form.js"></script>
+<!-- !END End-body Scripts -->
+</body>
+</html>
