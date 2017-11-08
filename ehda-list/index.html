@@ -1,10 +1,226 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Ehda List</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="public/assets/libs/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="public/assets/libs/bootstrap/bootstrap.rtl.min.css">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="public/assets/libs/fontawesome/css/font-awesome.min.css">
+
+    <!-- Custom Style -->
+    <link rel="stylesheet" href="public/assets/css/screen.min.css">
+
 </head>
 <body>
 
+<!-- Site wrapper -->
+<div class="wrapper">
+    <!-- Header -->
+    <header class="b-header">
+        <div class="container">
+            <div class="row">
+                <div class="b-header-logo">
+                    <img src="public/assets/images/Custom-logo-white.png" alt="logo" class="b-header-logo-img">
+                </div>
+                <div class="b-header-btn-group">
+                    <a href="/" class="btn btn-danger">
+                        <i class="fa fa-power-off" aria-hidden="true"></i>
+                        خروج
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Content -->
+    <section class="b-content">
+        <div class="container-fluid">
+            <!-- Search Input -->
+            <div class="row">
+                    <div class="b-content-search">
+                        <form class="form-inline" action="">
+                            <div class="form-group">
+                                <label for="search">شماره دعوت‌نامه:</label>
+                                <input class="form-control" type="search" id="search" name="search">
+                                <span class="b-input-icon">
+                                    <i class="fa fa-search" aria-hidden="true"></i>
+                                </span>
+                            </div>
+                        </form>
+                    </div>
+            </div>
+
+            <!-- Table of contents -->
+            <div class="row">
+                <div class="b-content-table">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>ردیف</th>
+                                <th>نام مدعو</th>
+                                <th>شماره دعوت‌نامه</th>
+                                <th>نوع دعوت</th>
+                                <th>نام مراجعه کننده</th>
+                                <th>شماره قرعه‌کشی</th>
+                                <th>عملیات</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr data-code="101">
+                                <td scope="row"></td>
+                                <td>نگار</td>
+                                <td>۱۰۱</td>
+                                <td>خانواده</td>
+                                <td>
+                                    <input type="text" class="form-control table-input--name">
+                                </td>
+                                <td>
+                                    <input type="number" class="form-control table-input--code">
+                                </td>
+                                <td>
+                                    <button class="btn btn-success" type="submit" name="submit">ثبت ورود</button>
+                                </td>
+                            </tr>
+                            <tr data-code="102">
+                                <td scope="row"></td>
+                                <td>جعفر</td>
+                                <td>۱۰۲</td>
+                                <td>خانواده</td>
+                                <td>
+                                    <input type="text" class="form-control table-input--name">
+                                </td>
+                                <td>
+                                    <input type="number" class="form-control table-input--code">
+                                </td>
+                                <td>
+                                    <button class="btn btn-success" type="submit" name="submit">ثبت ورود</button>
+                                </td>
+                            </tr>
+                            <tr data-code="103">
+                                <td scope="row"></td>
+                                <td>محمد</td>
+                                <td>۱۰۳</td>
+                                <td>خانواده</td>
+                                <td>
+                                    <input type="text" class="form-control table-input--name">
+                                </td>
+                                <td>
+                                    <input type="number" class="form-control table-input--code">
+                                </td>
+                                <td>
+                                    <button class="btn btn-success" type="submit" name="submit">ثبت ورود</button>
+                                </td>
+                            </tr>
+                            <tr data-code="104">
+                                <td scope="row"></td>
+                                <td>آیدا</td>
+                                <td>۱۰۴</td>
+                                <td>خانواده</td>
+                                <td>
+                                    <input type="text" class="form-control table-input--name">
+                                </td>
+                                <td>
+                                    <input type="number" class="form-control table-input--code">
+                                </td>
+                                <td>
+                                    <button class="btn btn-success" type="submit" name="submit">ثبت ورود</button>
+                                </td>
+                            </tr>
+                            <tr data-code="105">
+                                <td scope="row"></td>
+                                <td>رضوان</td>
+                                <td>۱۰۵</td>
+                                <td>خانواده</td>
+                                <td>
+                                    <input type="text" class="form-control table-input--name">
+                                </td>
+                                <td>
+                                    <input type="number" class="form-control table-input--code">
+                                </td>
+                                <td>
+                                    <button class="btn btn-success" type="submit" name="submit">ثبت ورود</button>
+                                </td>
+                            </tr>
+                            <tr data-code="106">
+                                <td scope="row"></td>
+                                <td>حسام</td>
+                                <td>۱۰۶</td>
+                                <td>خانواده</td>
+                                <td>
+                                    <input type="text" class="form-control table-input--name">
+                                </td>
+                                <td>
+                                    <input type="number" class="form-control table-input--code">
+                                </td>
+                                <td>
+                                    <button class="btn btn-success" type="submit" name="submit">ثبت ورود</button>
+                                </td>
+                            </tr>
+                            <tr data-code="107">
+                                <td scope="row"></td>
+                                <td>کیوان</td>
+                                <td>۱۰۷</td>
+                                <td>خانواده</td>
+                                <td>
+                                    <input type="text" class="form-control table-input--name">
+                                </td>
+                                <td>
+                                    <input type="number" class="form-control table-input--code">
+                                </td>
+                                <td>
+                                    <button class="btn btn-success" type="submit" name="submit">ثبت ورود</button>
+                                </td>
+                            </tr>
+                            <tr data-code="108">
+                                <td scope="row"></td>
+                                <td>مونا</td>
+                                <td>۱۰۸</td>
+                                <td>خانواده</td>
+                                <td>
+                                    <input type="text" class="form-control table-input--name">
+                                </td>
+                                <td>
+                                    <input type="number" class="form-control table-input--code">
+                                </td>
+                                <td>
+                                    <button class="btn btn-success" type="submit" name="submit">ثبت ورود</button>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+</div>
+<!-- !END Site wrapper -->
+
+
+<!-- End-body Assets -->
+<!-- jQuery -->
+<script src="public/assets/libs/jquery/jquery.min.js"></script>
+
+<!-- Bootstrap.js -->
+<script src="public/assets/libs/bootstrap/bootstrap.min.js"></script>
+
+<!-- Custom js -->
+<script src="public/assets/js/app.js"></script>
+
+<!-- !END End-body Assets -->
 </body>
 </html>

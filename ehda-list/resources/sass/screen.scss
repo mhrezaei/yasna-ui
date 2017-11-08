@@ -1,7 +1,27 @@
-/*
-*-------------------------------------------------------
-* Main Screen file scss
-* screen layout
-*-------------------------------------------------------
-*/
+//////////////////////////////////////////////////
+//                                              //
+//  Master Styling File                         //
+//                                              //
+//  # Imports all modules used in website       //
+//                                              //
+//  Created: 29-10-2017                         //
+//  Author: Yasna Team                          //
+//  http://yasnateam.com                        //
+//                                              //
+//////////////////////////////////////////////////
 
+/////////////////////
+// Required        //
+/////////////////////
+
+@import "base";
+@import "config";
+
+
+/////////////////////
+// Optional        //
+/////////////////////
+
+@import "modules/typography";
+@import "modules/header";
+@import "modules/content";
