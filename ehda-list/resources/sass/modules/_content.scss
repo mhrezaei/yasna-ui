@@ -39,6 +39,11 @@
         text-align: center;
       }
     }
+
+    .search-alert{
+      margin-top: 20px;
+      display: none;
+    }
   }
 
   .b-content-table{
@@ -60,5 +65,12 @@
       -webkit-appearance: none;
       margin: 0;
     }
+
+    // Status Classes
+    .entered{
+      background-color: #ccc;
+      color: #555;
+    }
+
   }
 }
