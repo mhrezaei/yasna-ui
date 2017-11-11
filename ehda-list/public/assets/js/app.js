@@ -7,7 +7,104 @@
 *-------------------------------------------------------
 */
 
-///////////////////////////////////////////////////////////////////////////////////////////
+/*
+*-------------------------------------------------------
+* Appending data
+*-------------------------------------------------------
+*/
+String.prototype.replaceAll = function (search, replacement) {
+    var target = this;
+    return target.replace(new RegExp(search, 'g'), replacement);
+};
+
+jQuery(function($){
+
+    var content = [
+            {
+                name: "نگار",
+                inviteNum: 101,
+                id: "id1",
+                type: 1,
+                status: false
+            },
+            {
+                name: "رضوان",
+                inviteNum: 102,
+                id: "id2",
+                type: 3,
+                status: false
+            },
+            {
+                name: "حسام",
+                inviteNum: 103,
+                id: "id3",
+                type: 2,
+                status: false
+            },
+            {
+                name: "جعفر",
+                inviteNum: 104,
+                id: "id4",
+                type: 1,
+                status: false
+            }
+        ],
+        template = $.trim( $('#trtemplate').html() ),
+        typeClass = "",
+        typeName = "";
+
+    updateList(content);
+
+
+    // Updates list data
+    function updateList(listContent) {
+        var frag = "",
+            inviteNumFa;
+
+        $.each(listContent,function (index, obj) {
+
+            typeIdentifier(obj.type);
+            inviteNumFa = pd(obj.inviteNum);
+            
+            frag +=
+                template.replace( /{{id}}/ig , obj.id )
+                    .replace( /{{class}}/ig , typeClass )
+                    .replace( /{{inviteNum}}/ig , obj.inviteNum )
+                    .replace( /{{name}}/ig , obj.name )
+                    .replace( /{{inviteNumFa}}/ig , inviteNumFa )
+                    .replace( /{{inviteType}}/ig , typeName );
+            
+
+        });
+
+        $('.table tbody').append(frag);
+    }
+
+    function typeIdentifier(type) {
+
+        switch (type){
+            case 1:
+                 typeClass = "text-success";
+                 typeName = "خانواده اهدا کننده";
+                break;
+            case 2:
+                typeClass = "text-warning";
+                typeName = "لیست انتظار";
+                break;
+            case 3:
+                typeClass = "text-danger";
+                typeName = "گیرنده عضو";
+                break;
+            default:
+                return
+        }
+
+
+    }
+
+}); //End Of siaf!
+
+
 
 /*
 *-------------------------------------------------------
@@ -149,5 +246,53 @@ jQuery(function($){
 
 }); //End Of siaf!
 
+
+/*
+*-------------------------------------------------------
+* Global functions
+*-------------------------------------------------------
+*/
+
+function forms_pd($string) {
+    if (!$string){
+        return;
+    }
+    $string = $string.toString();
+
+    $string = $string.replaceAll(/1/g, "۱");
+    $string = $string.replaceAll(/2/g, "۲");
+    $string = $string.replaceAll(/3/g, "۳");
+    $string = $string.replaceAll(/4/g, "۴");
+    $string = $string.replaceAll(/5/g, "۵");
+    $string = $string.replaceAll(/6/g, "۶");
+    $string = $string.replaceAll(/7/g, "۷");
+    $string = $string.replaceAll(/8/g, "۸");
+    $string = $string.replaceAll(/9/g, "۹");
+    $string = $string.replaceAll(/0/g, "۰");
+
+    return $string;
+}
+
+function forms_digit_fa(enDigit) {
+    return forms_pd(enDigit);
+
+    var newValue = "";
+    for (var i = 0; i < enDigit.length; i++) {
+        var ch = enDigit.charCodeAt(i);
+        if (ch >= 48 && ch <= 57) {
+            var newChar = ch + 1584;
+            newValue = newValue + String.fromCharCode(newChar);
+        }
+        else {
+            newValue = newValue + String.fromCharCode(ch);
+        }
+    }
+    return newValue;
+}
+
+function pd(enDigit) {
+    return forms_digit_fa(enDigit);
+
+}
 
 
