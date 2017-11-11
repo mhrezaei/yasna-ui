@@ -7,15 +7,15 @@
 *-------------------------------------------------------
 */
 
+String.prototype.replaceAll = function (search, replacement) {
+    var target = this;
+    return target.replace(new RegExp(search, 'g'), replacement);
+};
 /*
 *-------------------------------------------------------
 * Appending data
 *-------------------------------------------------------
 */
-String.prototype.replaceAll = function (search, replacement) {
-    var target = this;
-    return target.replace(new RegExp(search, 'g'), replacement);
-};
 
 jQuery(function($){
 
@@ -29,6 +29,13 @@ jQuery(function($){
             },
             {
                 name: "رضوان",
+                inviteNum: 102,
+                id: "id2",
+                type: 3,
+                status: false
+            },
+            {
+                name: "مونا",
                 inviteNum: 102,
                 id: "id2",
                 type: 3,
@@ -59,21 +66,24 @@ jQuery(function($){
     // Updates list data
     function updateList(listContent) {
         var frag = "",
-            inviteNumFa;
+            inviteNumFa,
+            count = 0;
 
         $.each(listContent,function (index, obj) {
 
             typeIdentifier(obj.type);
             inviteNumFa = pd(obj.inviteNum);
+            count = count + 1;
             
             frag +=
                 template.replace( /{{id}}/ig , obj.id )
                     .replace( /{{class}}/ig , typeClass )
+                    .replace( /{{status}}/ig , obj.status )
+                    .replace( /{{count}}/ig , pd(count) )
                     .replace( /{{inviteNum}}/ig , obj.inviteNum )
                     .replace( /{{name}}/ig , obj.name )
                     .replace( /{{inviteNumFa}}/ig , inviteNumFa )
                     .replace( /{{inviteType}}/ig , typeName );
-            
 
         });
 
@@ -105,7 +115,6 @@ jQuery(function($){
 }); //End Of siaf!
 
 
-
 /*
 *-------------------------------------------------------
 * Searching
@@ -116,12 +125,15 @@ jQuery(function($){
     var table = $('.table'),
         tbodyRows = table.find('tbody tr'),
         enterBtn = tbodyRows.find('button[name=enter]'),
-        editBtn = tbodyRows.find('button[name=exit]'),
+        editBtn = tbodyRows.find('button[name=edit]'),
+        exitBtn = tbodyRows.find('button[name=delete]'),
+        updateBtn = tbodyRows.find('button[name=update]'),
         alert = $('.search-alert'),
         search = $('#search'),
+        clearBtn = $('.remove'),
         searchVal;
 
-
+    search.focus();
 
     // function called after typing 3 character in search input
     search.on('keyup', function () {
@@ -129,13 +141,47 @@ jQuery(function($){
         searchVal = search.val();
 
         (searchVal.length >= 3)? searchRows(searchVal) : tbodyRows.show();
+    })
+        .on('keypress', function (e) {
+            var key = e.which;
+            // Enter key code
+            if( key=== 13){
+                e.preventDefault();
+            }
+        });
+
+    //input inter action -> next
+    $('.table-input--name').on('keypress', function (e) {
+        var key = e.which;
+        if(key===13){
+            $(this).parents('tr').find('.table-input--code').focus();
+        }
     });
+
+    //input inter action -> submit
+    $('.table-input--code').on('keypress', function (e) {
+        var key = e.which;
+        if(key===13){
+            console.log($(this).parents('tr').find('button[name=enter]'));
+            
+            $(this).parents('tr').find('button[name=enter]').click();
+        }
+    });
+
+    // number input scroll disable
+    $('input[type=number]').on('mousewheel', function(e){
+        e.preventDefault();
+    });
+
 
     // Function called on Entering data
     enterBtn.on('click', getData);
 
     // Function called on editing data
     editBtn.on('click', editData);
+
+    // Function called when deleting data
+    exitBtn.on('click', deleteData);
 
     function searchRows(targetId) {
 
@@ -147,7 +193,9 @@ jQuery(function($){
 
         if(targetRow.length){
             //if found, show.
+            search.blur();
             targetRow.show();
+            targetRow.first().find('.table-input--name').eq(0).focus();
         }else {
             //in NOT found, alert.
             alertMessage.show("شماره دعوت مورد نظر یافت نشد.");
@@ -166,8 +214,12 @@ jQuery(function($){
 
         // Checks if lottery code entered
         if(lotteryCode){
-            entered(btn,tr,name,lotteryCode);
-            return [id,name,lotteryCode];
+            if(lotteryCode.length === 3){
+                entered(btn,tr,name,lotteryCode);
+                return [id,name,lotteryCode];
+            }else{
+                alertMessage.show("شماره قرعه‌کشی نادرست می‌باشد.")
+            }
         }else{
             alertMessage.show("شماره قرعه‌کشی را وارد کنید.");
         }
@@ -179,8 +231,9 @@ jQuery(function($){
         //remove alerts if exist
         alertMessage.hide();
 
-        // Change btn
-        changeBtn(btn);
+        // show edit btn
+        tr.find('.control-btn').hide();
+        tr.find('[name=edit]').show();
 
         // replace input with entered data
         tr.find('.td-name span').empty()
@@ -188,9 +241,10 @@ jQuery(function($){
             .next().hide();
 
         tr.find('.td-lottery-code span').empty()
-            .text(lotteryVal).show()
+            .text(pd(lotteryVal)).show()
             .next().hide();
 
+        tr.attr("data-status", "true");
 
         // change style of row
         tr.addClass('entered');
@@ -216,17 +270,38 @@ jQuery(function($){
         tr.removeClass('entered');
     }
 
+    // Deletes Data
+    function deleteData() {
+        var btn = $(this),
+            tr = btn.parents('tr');
+
+        // change btn
+        changeBtn(btn);
+
+        //shows inputs again
+        tr.find('.td-name span')
+            .hide().empty()
+            .next().val("").show();
+        tr.find('.td-lottery-code span')
+            .hide().empty()
+            .next().val("").show();
+
+        // Change style of row to its default
+        tr.removeClass('entered');
+    }
+
     // Toggles btn to enter or exit submitter
     function changeBtn(btn) {
         if(btn.is('[name=enter]')){
 
             btn.hide()
-                .next().show();
+                .next('.secondary-btn').show();
 
-        }else if(btn.is('[name=exit]')){
+        }else if(btn.is('[name=exit]') || btn.is('[name=edit]') ){
 
-            btn.hide()
+            btn.parent('.secondary-btn').hide()
                 .prev().show();
+
 
         }
 

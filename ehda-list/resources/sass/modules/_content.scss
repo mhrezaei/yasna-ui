@@ -7,10 +7,17 @@
 .b-content{
   padding: 100px 80px;
 
+  input[type=number]::-webkit-inner-spin-button,
+  input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+
   .b-content-search{
     max-width: 800px;
     margin: 0 auto;
     text-align: center;
+    position: relative;
     label{
       color: $color__gray--dark;
       margin-left: 20px;
@@ -19,23 +26,37 @@
 
     input{
       min-width: 300px;
+      height: 50px;
       border-bottom-left-radius: 0;
       border-top-left-radius: 0;
       border-left: 0;
       text-align: left;
       direction: ltr;
+      @include text($text__size--m, $text__line--m);
+      font-weight: 500;
+      color: $color__gray--dark;
+    }
+    .remove{
+      padding:0;
+      background-color: transparent;
+      border:0;
+      color: #ca1212;
+      @include text($text__size--m,$text__line--m);
+      position: absolute;
+      top: 10px;
+      right: 320px;
     }
     .b-input-icon{
       background-color: $color__green;
       color: $color__white;
       display: inline-block;
-      width: 30px;
-      height: 34px;
+      width: 45px;
+      height: 50px;
       border-bottom-left-radius: 50%;
       border-top-left-radius: 50%;
       float: left;
       i{
-        line-height: 34px;
+        line-height: 50px;
         text-align: center;
       }
     }
@@ -64,11 +85,7 @@
       direction: ltr;
       width: 200px;
     }
-    input[type=number]::-webkit-inner-spin-button,
-    input[type=number]::-webkit-outer-spin-button {
-      -webkit-appearance: none;
-      margin: 0;
-    }
+
 
     // Status Classes
     .entered{
