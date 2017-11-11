@@ -20,6 +20,20 @@ $color__blue-gray--dark: #212a35;
 $color__gray--light: #9daeb8;
 $color__gray--dark: #58595B;
 
+// Bootstrap class modification
+.text-danger{
+  color: #ea211d;
+}
+.text-success{
+  color: #05c509;
+}
+.text-warning{
+  color: #d69213;
+}
+.text-info{
+  color: #119ce0;
+}
+
 
 // extendable classes
 .list-reset{

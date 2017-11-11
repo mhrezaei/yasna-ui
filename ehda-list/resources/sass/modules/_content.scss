@@ -52,6 +52,10 @@
     border: 1px solid #ddd;
     border-radius: 10px;
 
+    td,
+    th{
+      line-height: inherit;
+    }
     input{
       width: 200px;
     }
@@ -69,7 +73,7 @@
     // Status Classes
     .entered{
       background-color: #ccc;
-      color: #555;
+      color: #777;
     }
 
   }

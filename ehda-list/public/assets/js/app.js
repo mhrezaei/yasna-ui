@@ -19,19 +19,26 @@ jQuery(function($){
     var table = $('.table'),
         tbodyRows = table.find('tbody tr'),
         enterBtn = tbodyRows.find('button[name=enter]'),
+        editBtn = tbodyRows.find('button[name=exit]'),
         alert = $('.search-alert'),
         search = $('#search'),
         searchVal;
 
+
+
+    // function called after typing 3 character in search input
     search.on('keyup', function () {
-        alert.text("").hide();
+        alertMessage.hide();
         searchVal = search.val();
 
         (searchVal.length >= 3)? searchRows(searchVal) : tbodyRows.show();
     });
 
+    // Function called on Entering data
     enterBtn.on('click', getData);
-    
+
+    // Function called on editing data
+    editBtn.on('click', editData);
 
     function searchRows(targetId) {
 
@@ -46,10 +53,11 @@ jQuery(function($){
             targetRow.show();
         }else {
             //in NOT found, alert.
-            alertMessage("شماره دعوت مورد نظر یافت نشد.");
+            alertMessage.show("شماره دعوت مورد نظر یافت نشد.");
         }
     }
     
+    // Gets data to record entrance
     function getData() {
         var btn = $(this),
             tr = btn.parents('tr'),
@@ -59,35 +67,83 @@ jQuery(function($){
             lotteryInput = tr.find('.table-input--code'),
             lotteryCode = lotteryInput.val();
 
-
+        // Checks if lottery code entered
         if(lotteryCode){
             entered(btn,tr,name,lotteryCode);
             return [id,name,lotteryCode];
         }else{
-            alertMessage("شماره قرعه‌کشی را وارد کنید.");
+            alertMessage.show("شماره قرعه‌کشی را وارد کنید.");
         }
 
     }
 
+    // Records entrance
     function entered(btn,tr,nameVal,lotteryVal) {
-        btnDanger(btn);
-        tr.find('.td-name')
-            .empty()
-            .text(nameVal);
-        tr.find('.td-lottery-code')
-            .empty()
-            .text(lotteryVal)
-    }
-    function btnDanger(btn) {
-        btn.removeClass('btn-success')
-            .addClass('btn-danger')
-            .text('ثبت خروج')
-            .attr('name','exit');
-    }
-    function alertMessage(message) {
-        alert.text(message).show();
+        //remove alerts if exist
+        alertMessage.hide();
+
+        // Change btn
+        changeBtn(btn);
+
+        // replace input with entered data
+        tr.find('.td-name span').empty()
+            .text(nameVal).show()
+            .next().hide();
+
+        tr.find('.td-lottery-code span').empty()
+            .text(lotteryVal).show()
+            .next().hide();
+
+
+        // change style of row
+        tr.addClass('entered');
     }
 
+    // Edits data
+    function editData() {
+        var btn = $(this),
+            tr = btn.parents('tr');
+
+        // change btn
+        changeBtn(btn);
+
+        //shows inputs again
+        tr.find('.td-name span')
+            .hide()
+            .next().show();
+        tr.find('.td-lottery-code span')
+            .hide()
+            .next().show();
+
+        // Change style of row to its default
+        tr.removeClass('entered');
+    }
+
+    // Toggles btn to enter or exit submitter
+    function changeBtn(btn) {
+        if(btn.is('[name=enter]')){
+
+            btn.hide()
+                .next().show();
+
+        }else if(btn.is('[name=exit]')){
+
+            btn.hide()
+                .prev().show();
+
+        }
+
+    }
+
+    // Alert Message Object
+    var alertMessage = {
+        show: function (message) {
+            alert.text(message).show();
+        },
+        hide: function () {
+            alert.text("").hide();
+        }
+    }
     
 
 
