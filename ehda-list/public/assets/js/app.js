@@ -126,9 +126,10 @@ jQuery(function($){
         tbodyRows = table.find('tbody tr'),
         enterBtn = tbodyRows.find('button[name=enter]'),
         editBtn = tbodyRows.find('button[name=edit]'),
-        exitBtn = tbodyRows.find('button[name=delete]'),
+        deleteBtn = tbodyRows.find('button[name=delete]'),
         updateBtn = tbodyRows.find('button[name=update]'),
-        alert = $('.search-alert'),
+        alertBox = $('.search-alert'),
+        alert = alertBox.find('span'),
         search = $('#search'),
         clearBtn = $('.remove'),
         searchVal;
@@ -160,17 +161,28 @@ jQuery(function($){
 
     //input inter action -> submit
     $('.table-input--code').on('keypress', function (e) {
-        var key = e.which;
+        var key = e.which,
+            tr = $(this).parents('tr');
         if(key===13){
             console.log($(this).parents('tr').find('button[name=enter]'));
-            
-            $(this).parents('tr').find('button[name=enter]').click();
+
+            if(tr.attr("data-status") === "false"){
+                tr.find('button[name=enter]').click();
+            }else {
+                tr.find('button[name=update]').click();
+            }
         }
     });
 
     // number input scroll disable
     $('input[type=number]').on('mousewheel', function(e){
         e.preventDefault();
+    });
+
+    //closing alert box
+    alertBox.children('.close').on('click',function (e) {
+        e.preventDefault();
+        alertMessage.hide();
     });
 
 
@@ -181,7 +193,10 @@ jQuery(function($){
     editBtn.on('click', editData);
 
     // Function called when deleting data
-    exitBtn.on('click', deleteData);
+    deleteBtn.on('click', deleteData);
+
+    // Function called on updating data
+    updateBtn.on('click', getData);
 
     function searchRows(targetId) {
 
@@ -256,7 +271,8 @@ jQuery(function($){
             tr = btn.parents('tr');
 
         // change btn
-        changeBtn(btn);
+        tr.find('.control-btn').hide();
+        tr.find('.secondary-btn').show();
 
         //shows inputs again
         tr.find('.td-name span')
@@ -276,7 +292,8 @@ jQuery(function($){
             tr = btn.parents('tr');
 
         // change btn
-        changeBtn(btn);
+        tr.find('.control-btn').hide();
+        tr.find('[name=enter]').show();
 
         //shows inputs again
         tr.find('.td-name span')
@@ -286,34 +303,23 @@ jQuery(function($){
             .hide().empty()
             .next().val("").show();
 
+        // Reset the status
+        tr.attr("data-status", "false");
+
         // Change style of row to its default
         tr.removeClass('entered');
     }
 
-    // Toggles btn to enter or exit submitter
-    function changeBtn(btn) {
-        if(btn.is('[name=enter]')){
-
-            btn.hide()
-                .next('.secondary-btn').show();
-
-        }else if(btn.is('[name=exit]') || btn.is('[name=edit]') ){
-
-            btn.parent('.secondary-btn').hide()
-                .prev().show();
-
-
-        }
-
-    }
 
     // Alert Message Object
     var alertMessage = {
         show: function (message) {
-            alert.text(message).show();
+            alert.text(message);
+            alertBox.show();
         },
         hide: function () {
-            alert.text("").hide();
+            alert.text("");
+            alertBox.hide();
         }
     }
     
