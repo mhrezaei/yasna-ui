@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Lottery</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="public/assets/libs/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="public/assets/libs/bootstrap/bootstrap.rtl.min.css">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Font -->
+    <link rel="stylesheet" href="public/assets/libs/fontawesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="public/assets/css/fontiran.css">
+
+    <!-- Custom Style -->
+    <link rel="stylesheet" href="public/assets/css/home.css">
+
+</head>
+<body>
+    <!--<img class="bg" src="public/assets/images/bg.png">-->
+    <div class="bg">
+        <div class="content">
+            <div class="inner-content">
+                <div class="line1">
+                    سیزدهمین مراسم بزرگداشت پیوند اعضا
+                </div>
+                <div class="line2">
+                    قرعه‌کشی مشهد مقدس برای خانواده‌های ایثارگر اهداکننده
+                </div>
+
+                <div class="digits row" dir="ltr" onclick="inputFocus()">
+                    <div id="dig3" class="col-md-3 img-circle digit">-</div>
+                    <div id="dig2" class="col-md-3 img-circle digit">-</div>
+                    <div id="dig1" class="col-md-3 img-circle digit">-</div>
+                </div>
+
+                <div class="result result-name" style="display: none">
+                    خانواده‌ی مرحوم فلان
+                </div>
+
+                <div class="result result-buttons" style="display: none">
+                    <span class="fa fa-check text-success" onclick="next('save')"></span>
+                    <span class="fa fa-remove text-danger" onclick="next('deny')"></span>
+                </div>
+
+                <form action="javascript:action()">
+                    <input id="txtInput" name="input" class="" autocomplete="off">
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- End-body Assets -->
+    <!-- jQuery -->
+    <script src="public/assets/libs/jquery/jquery.min.js"></script>
+
+    <!-- Bootstrap.js -->
+    <script src="public/assets/libs/bootstrap/bootstrap.min.js"></script>
+
+    <!-- Custom js -->
+    <script src="public/assets/js/home.js"></script>
+
+    <!-- !END End-body Assets -->
+
+</body>
+</html>
