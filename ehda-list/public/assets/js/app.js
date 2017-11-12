@@ -198,6 +198,7 @@ jQuery(function($){
     // Function called on updating data
     updateBtn.on('click', getData);
 
+    // Searches Between rows of contents
     function searchRows(targetId) {
 
         var targetRow;
@@ -323,6 +324,14 @@ jQuery(function($){
         }
     }
     
+    // ajax loading image
+    function triggerLoadingImg(img) {
+        img.bind('ajaxStart', function(){
+            $(this).show();
+        }).bind('ajaxStop', function(){
+            $(this).hide();
+        });
+    }
 
 
 }); //End Of siaf!
