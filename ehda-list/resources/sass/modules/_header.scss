@@ -22,5 +22,8 @@
   .b-header-btn-group{
     float: left;
     padding: 20px 0;
+    a{
+      color: $color__white;
+    }
   }
 }
