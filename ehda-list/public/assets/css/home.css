@@ -159,7 +159,7 @@ div.content {
     border-radius: 10px;
     padding: 20px;
     margin: 30px auto;
-    width: 1000px;
+    /*width: 1000px;*/
     font-size: 40px; }
   div.content .result-buttons {
     font-size: 20px; }
